@@ -1,0 +1,390 @@
+@font-face {
+    font-family: "Ezra SIL";
+    src: url("fonts/SILEOT.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("fonts/NotoSans.ttf");
+}
+
+:root {
+    font-family: "Noto Sans";
+    --text: black;
+    --main: white;
+    --main-contrast: white;
+    --off-main: #ddd;
+    --secondary: #777;
+    --accent: #66a;
+    --accent-text: #558;
+    --link: #158;
+}
+
+[lang=hbo] {
+    font-family: "Ezra SIL", "Times New Roman";
+}
+
+/*Light Mode*/
+.light {
+    --text: black;
+    --main: white;
+    --main-contrast: white;
+    --off-main: #ddd;
+    --secondary: #777;
+    --accent: #66a;
+    --accent-text: #558;
+    --link: #158;
+}
+
+/*Dark Mode*/
+@media (prefers-color-scheme: dark) {
+    :root { 
+        --text: #f0f0f0;
+        --main: #18181c;
+        --main-contrast: #1c1c20;
+        --off-main: #333337;
+        --secondary: #a3a3ab;
+        --accent: #66a;
+        --accent-text: #99f;
+        --link: #7af;
+    }
+}
+
+.dark {
+    --text: #f0f0f0;
+    --main: #18181c;
+    --main-contrast: #1c1c20;
+    --off-main: #333337;
+    --secondary: #a3a3ab;
+    --accent: #66a;
+    --accent-text: #99f;
+    --link: #7af;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--main);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--off-main);
+    border-radius: 5px;
+    border: 2px solid var(--main);
+    min-height: 7vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--off-main) 80%, white);
+}
+
+
+body {
+    margin: 0px;
+    background-color: var(--main);
+    color: var(--text);
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--accent-text);
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+button {
+    font-family: "Noto Sans";
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+}
+
+#rMenu {
+    color: var(--text);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    top: 20px;
+    padding: 6px 10px 0px 0px;
+}
+
+#rMenuBtn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    background: none;
+    border: none;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.switch {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.switch .slider {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: var(--off-main);
+    -webkit-transition: .4s;
+    transition: .2s;
+}
+  
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: var(--accent);
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--accent);
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+
+#bookSelect {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--main);
+    border: 1px solid var(--off-main);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#bookSelectText {
+    font-size: 30px;
+    color: var(--text);
+    padding: 0px 5px;
+}
+
+#bookSelect svg {
+    color: var(--text);
+    margin-right: 5px;
+}
+
+#bookMenu {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: var(--main-contrast);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+    padding: 10px 0px 10px 10px;
+    width: 500px;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.bookMenuDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: 1px solid var(--off-main);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bookMenuDiv:last-child {
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bookMenuDiv span {
+    width: 41%;
+    margin: 0px 18px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.chapterSelect {
+    width: 59%;
+    text-align: left;
+}
+
+.chapterSelect button {
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 0px;
+    color: var(--text);
+    border: 1px solid var(--off-main);
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+.chapterSelect button:hover, .chapterSelect button.selected {
+    background-color: var(--off-main);
+}
+
+#rcontainer {
+    overflow-y: auto;
+    height: calc(100vh - 117px);
+    padding: 10px;
+    margin: 0px 10px;
+    border: 1px solid var(--off-main);
+    border-radius: 5px;
+}
+
+#reader th {
+    float: right;
+}
+
+#reader tr td {
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left: 2ch;
+}
+
+span {
+    font-size: 16px;
+}
+
+span[lang=hbo] span{
+    font-size: 32px;
+}
+
+.gloss * {
+    cursor: pointer;
+}
+
+abbr {
+    font-feature-settings: "smcp";
+}
+
+#attributionBtn {
+    position: absolute;
+    left: 10px;
+    top: 52px;
+    background: none;
+    color: var(--secondary);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#attributionDiv {
+    z-index: 1;
+    position: absolute;
+    padding: 10px 20px;
+    background: var(--main-contrast);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+    margin: 0px 10px;
+    max-height: calc(100vh - 117px);
+    overflow-y: auto;
+}
+
+#lightBtn {
+    position: absolute;
+    left: 35px;
+    top: 52px;
+    background: none;
+    color: var(--secondary);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#infoDiv {
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    background: var(--main-contrast);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+    top: 0px;
+    height: fit-content;
+}
+
+#infoDiv span {
+    display: block;
+}
+
+#lemmaSpan {
+    font-size: 36px;
+}
+
+#defSpan {
+    text-align: left;
+    font-weight: 300;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 479px) {
+    #rMenu {
+        display: none;
+        top: 83px;
+        z-index: 1;
+        background-color: var(--main-contrast);
+        padding-bottom: 6px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
+    }
+    #rMenuBtn {
+        display: block;
+    }
+
+    #rMenu.shown {
+        display: flex;
+    }
+}

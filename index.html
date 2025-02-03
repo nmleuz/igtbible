@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <title>IGT Bible</title>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/loadxigt.js"></script>
+    <script src="data/bookMap.js"></script>
+    <script src="data/codeMap.js"></script>
+    <script src="data/strongs-hebrew-dictionary.js"></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/info.js"></script>
+</head>
+<body>
+    <nav>
+        <button id="bookSelect" onclick="bookMenu.classList.toggle('hidden')">
+            <span id="bookSelectText"></span>
+            <svg width="10" height="10" viewBox="0 0 13.229167 13.229167">
+                <path style="fill:currentColor" d="m 0.32921431,3.8210857 c -0.38689941,0.3869009 -0.38689941,1.0098501 0,1.3967494 L 4.5194606,9.408081 5.9162092,10.80483 c 0.3868998,0.386899 1.0098493,0.386899 1.3967482,0 L 8.7097063,9.408081 12.899953,5.2178351 c 0.386899,-0.3868993 0.386899,-1.0098485 0,-1.3967494 l -1.39675,-1.3967482 c -0.386897,-0.3869001 -1.009848,-0.3868994 -1.396749,0 L 6.6145834,5.9162088 3.1227118,2.4243375 c -0.3868996,-0.3868994 -1.0098494,-0.3868994 -1.3967488,0 z" />
+            </svg>
+        </button>
+        <div id="bookMenu" class="hidden"></div>
+        <button id="lightBtn" arial-label="Toggle light/dark mode" onclick="lightToggle()">
+            <svg id="sunIcon" width="20" height="20" viewBox="0 0 13.229167 13.229167">
+                <path style="fill:currentColor;" d="M 9.3498534,6.6145828 A 2.7352715,2.7352715 0 0 1 6.6145835,9.3498557 2.7352715,2.7352715 0 0 1 3.8793122,6.6145828 2.7352715,2.7352715 0 0 1 6.6145835,3.8793114 2.7352715,2.7352715 0 0 1 9.3498534,6.6145828 Z" />
+                <path style="stroke:currentColor;stroke-width:1.95377;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" d="M 6.6145835,0.96316661 V 2.1064245 Z M 2.6185245,2.6185245 3.4267419,3.4267419 Z m 7.9921175,0 -0.8082169,0.8082174 z M 0.96316661,6.6145835 H 2.1064245 Z m 10.15957639,0 H 12.266 Z M 3.4267419,9.8024251 2.6185245,10.610642 Z m 6.3756832,0 0.8082169,0.8082169 z M 6.6145835,11.122743 V 12.266 Z" />
+            </svg>
+            <svg id="moonIcon" width="20" height="20" viewBox="0 0 13.229167 13.229167">
+                <path style="fill:currentColor;" d="M 6.614583,9.2499999e-8 A 6.6145832,6.6145832 0 0 0 0,6.6145826 6.6145832,6.6145832 0 0 0 6.614583,13.229167 6.6145832,6.6145832 0 0 0 13.229167,6.6145826 6.6145832,6.6145832 0 0 0 6.614583,9.2499999e-8 Z M 6.240516,2.5844086 A 4.0497453,4.0497453 0 0 0 5.57166,4.8106055 4.0497453,4.0497453 0 0 0 9.621213,8.8601586 4.0497453,4.0497453 0 0 0 9.99528,8.8407806 4.0497453,4.0497453 0 0 1 6.614583,10.664136 4.0497453,4.0497453 0 0 1 2.56503,6.614583 4.0497453,4.0497453 0 0 1 6.240516,2.5844086 Z" />
+            </svg>
+        </button>
+        <button id="rMenuBtn" onclick="rMenu.classList.toggle('shown')">
+            <svg width="30" height="50" viewBox="0 0 13.229167 13.229167">
+                <path style="stroke-width:1.05833;stroke-linejoin:round;paint-order:fill markers stroke;fill: currentColor" d="m 13.229167,6.3500003 c 0,-0.293158 -0.236009,-0.529167 -0.529167,-0.529167 H 0.5291668 C 0.2360079,5.8208333 0,6.0568423 0,6.3500003 V 6.8791666 C 0,7.1723257 0.2360079,7.4083337 0.5291668,7.4083337 H 12.7 c 0.293158,0 0.529167,-0.236008 0.529167,-0.5291671 z"/>
+                <path style="stroke-width:1.05833;stroke-linejoin:round;paint-order:fill markers stroke;fill: currentColor" d="m 13.229167,2.1166667 c 0,-0.293158 -0.236009,-0.529167 -0.529167,-0.529167 H 0.5291668 C 0.2360079,1.5874997 0,1.8235087 0,2.1166667 V 2.645833 C 0,2.9389921 0.2360079,3.1750001 0.5291668,3.1750001 H 12.7 c 0.293158,0 0.529167,-0.236008 0.529167,-0.5291671 z"/>
+                <path style="stroke-width:1.05833;stroke-linejoin:round;paint-order:fill markers stroke;fill: currentColor" d="m 13.229167,10.583334 c 0,-0.293158 -0.236009,-0.529167 -0.529167,-0.529167 H 0.5291668 C 0.2360079,10.054167 0,10.290176 0,10.583334 v 0.529167 c 0,0.293159 0.2360079,0.529167 0.5291668,0.529167 H 12.7 c 0.293158,0 0.529167,-0.236008 0.529167,-0.529167 z"/>
+            </svg>
+        </button>
+        <div id="rMenu">
+            <label class="switch">
+                <input id="cantToggle" onclick="cantToggle()" type="checkbox" checked>
+                <span class="slider"></span>
+                cantillation
+            </label>
+            <label class="switch">
+                <input id="morphBoundToggle" onclick="morphBoundToggle()" type="checkbox" checked>
+                <span class="slider"></span>
+                separators
+            </label>
+        </div>
+    </nav>
+
+    <button id="attributionBtn" arial-label="Attribution" onclick="attributionDiv.classList.toggle('hidden')">
+        <svg width="20" height="20" viewBox="0 0 13.229167 13.229167">
+            <path style="fill:none;stroke:currentColor;stroke-width:1.32292;" d="M 12.435417,6.6145835 A 5.8208337,5.8208337 0 0 1 6.6145835,12.435417 5.8208337,5.8208337 0 0 1 0.79374981,6.6145835 5.8208337,5.8208337 0 0 1 6.6145835,0.79374981 5.8208337,5.8208337 0 0 1 12.435417,6.6145835 Z" />
+            <path style="stroke-width:4;fill:currentColor" d="M 25 9.5 A 4.25 4.25 0 0 0 20.75 13.75 A 4.25 4.25 0 0 0 25 18 A 4.25 4.25 0 0 0 29.25 13.75 A 4.25 4.25 0 0 0 25 9.5 z M 23 21 C 21.892 21 21 21.892 21 23 L 21 39 C 21 40.108002 21.892 41 23 41 L 27 41 C 28.108 41 29 40.108002 29 39 L 29 23 C 29 21.892 28.108 21 27 21 L 23 21 z " transform="scale(0.26458334)" />
+        </svg>
+    </button>
+    <div id="attributionDiv" class="hidden">
+        <p>This interlinear glossed text uses the standard <a href="https://www.eva.mpg.de/lingua/resources/glossing-rules.php" target="_blank">Leipzig glossing rules</a>.</p>
+        <p>The gloss was generated using lexical and morphological data from the <a href="https://hb.openscriptures.org/" target="_blank">Open Scriptures Bible project</a>, which is under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International license</a>.</p>
+        <p>The original Hebrew text is from a unicode/XML version of the <a href="https://www.tanach.us/Tanach.xml" target="_blank">Westminster Leningrad Codex</a> (WLC), a digitization of the Leningrad Codex.</p>
+        <p>The definitions come from James Strong's "A Concise Dictionary of the Words in the Hebrew Bible with their Renderings in the King James Version" (1894), transliterated by the Open Scriptures Bible Project under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.</p>
+        <p>Hebrew text is displayed in the <a href="https://software.sil.org/ezra/" target="_blank">Ezra SIL</a> font, based on the typography of the Biblia Hebraica Stuttgartensia (BHS).</p>
+    </div>
+    <div id="rcontainer" onclick="info(event.target)">
+    <table id="reader"></table>
+    </div>
+
+</body>
+</html>

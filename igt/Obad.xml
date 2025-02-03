@@ -1,0 +1,1903 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xigt-corpus>
+    <igt id="Obad.1.1">
+        <tier type="phrases" id="p">
+            <item id="p1">חֲז֖וֹן עֹֽבַדְיָ֑ה כֹּֽה־אָמַר֩ אֲדֹנָ֨י יְהוִ֜ה לֶאֱד֗וֹם שְׁמוּעָ֨ה שָׁמַ֜עְנוּ מֵאֵ֤ת יְהוָה֙ וְצִיר֙ בַּגּוֹיִ֣ם שֻׁלָּ֔ח ק֛וּמוּ וְנָק֥וּמָה עָלֶיהָ לַמִּלְחָמָֽה׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-7]" />
+            <item id="w2" segmentation="p1[8-19]" />
+            <item id="w3" segmentation="p1[20-25]" />
+            <item id="w4" segmentation="p1[26-32]" />
+            <item id="w5" segmentation="p1[33-41]" />
+            <item id="w6" segmentation="p1[42-49]" />
+            <item id="w7" segmentation="p1[50-59]" />
+            <item id="w8" segmentation="p1[60-70]" />
+            <item id="w9" segmentation="p1[71-82]" />
+            <item id="w10" segmentation="p1[83-89]" />
+            <item id="w11" segmentation="p1[90-97]" />
+            <item id="w12" segmentation="p1[98-105]" />
+            <item id="w13" segmentation="p1[106-117]" />
+            <item id="w14" segmentation="p1[118-126]" />
+            <item id="w15" segmentation="p1[127-134]" />
+            <item id="w16" segmentation="p1[135-146]" />
+            <item id="w17" segmentation="p1[147-154]" />
+            <item id="w18" segmentation="p1[155-168]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-7]" />
+            <item id="m2.1" segmentation="w2[0-11]" />
+            <item id="m3.1" segmentation="w3[0-5]" />
+            <item id="m4.1" segmentation="w4[0-6]" />
+            <item id="m5.1" segmentation="w5[0-7]" />
+            <item id="m5.2" segmentation="w5[7-8]" type="affix" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-9]" />
+            <item id="m8.1" segmentation="w8[0-10]" />
+            <item id="m9.1" segmentation="w9[0-11]" />
+            <item id="m10.1" segmentation="w10[0-2]" type="clitic" />
+            <item id="m10.2" segmentation="w10[2-6]" />
+            <item id="m11.1" segmentation="w11[0-7]" />
+            <item id="m12.1" segmentation="w12[0-2]" type="clitic" />
+            <item id="m12.2" segmentation="w12[2-7]" />
+            <item id="m13.1" segmentation="w13[0-3]" type="clitic" />
+            <item id="m13.2" segmentation="w13[3-11]" />
+            <item id="m14.1" segmentation="w14[0-8]" />
+            <item id="m15.1" segmentation="w15[0-7]" />
+            <item id="m16.1" segmentation="w16[0-2]" type="clitic" />
+            <item id="m16.2" segmentation="w16[2-11]" />
+            <item id="m17.1" segmentation="w17[0-5]" />
+            <item id="m17.2" segmentation="w17[5-7]" type="affix" />
+            <item id="m18.1" segmentation="w18[0-2]" type="clitic" />
+            <item id="m18.2" segmentation="w18[2-13]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1.1" alignment="m1.1" type="lexeme">vision</item>
+            <item id="g1.1.2" alignment="m1.1" type="leipzig">m</item>
+            <item id="g1.1.3" alignment="m1.1" type="leipzig">sg</item>
+            <item id="g1.1.4" alignment="m1.1" type="leipzig">constr</item>
+            <item id="g2.1" alignment="m2.1" type="lexeme">Obadiah</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">thus</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">utter</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">pfv</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">3sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">m</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">lord</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">m</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">pl</item>
+            <item id="g5.1.4" alignment="m5.1" type="leipzig">constr</item>
+            <item id="g5.2" alignment="m5.2" type="leipzig">1sg</item>
+            <item id="g6.1" alignment="m6.1" type="lexeme">God</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">to</item>
+            <item id="g7.2" alignment="m7.2" type="lexeme">Edom</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">report</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">f</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">sg</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">hear</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">pfv</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">from</item>
+            <item id="g10.2" alignment="m10.2" type="lexeme">with</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">YHWH</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">and</item>
+            <item id="g12.2.1" alignment="m12.2" type="lexeme">envoy</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g12.2.3" alignment="m12.2" type="leipzig">sg</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">in</item>
+            <item id="g13.2.1" alignment="m13.2" type="lexeme">nation</item>
+            <item id="g13.2.2" alignment="m13.2" type="leipzig">m</item>
+            <item id="g13.2.3" alignment="m13.2" type="leipzig">pl</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">send</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">pfv</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">3sg</item>
+            <item id="g14.1.4" alignment="m14.1" type="leipzig">m</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">arise</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">imp</item>
+            <item id="g15.1.3" alignment="m15.1" type="leipzig">2pl</item>
+            <item id="g15.1.4" alignment="m15.1" type="leipzig">m</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">and</item>
+            <item id="g16.2.1" alignment="m16.2" type="lexeme">arise</item>
+            <item id="g16.2.2" alignment="m16.2" type="leipzig">hort</item>
+            <item id="g17.1" alignment="m17.1" type="lexeme">above</item>
+            <item id="g17.2.1" alignment="m17.2" type="leipzig">3sg</item>
+            <item id="g17.2.2" alignment="m17.2" type="leipzig">f</item>
+            <item id="g18.1" alignment="m18.1" type="lexeme">to</item>
+            <item id="g18.2.1" alignment="m18.2" type="lexeme">battle</item>
+            <item id="g18.2.2" alignment="m18.2" type="leipzig">f</item>
+            <item id="g18.2.3" alignment="m18.2" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.2">
+        <tier type="phrases" id="p">
+            <item id="p1">הִנֵּ֥ה קָטֹ֛ן נְתַתִּ֖יךָ בַּגּוֹיִ֑ם בָּז֥וּי אַתָּ֖ה מְאֹֽד׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-7]" />
+            <item id="w2" segmentation="p1[8-14]" />
+            <item id="w3" segmentation="p1[15-26]" />
+            <item id="w4" segmentation="p1[27-38]" />
+            <item id="w5" segmentation="p1[39-47]" />
+            <item id="w6" segmentation="p1[48-55]" />
+            <item id="w7" segmentation="p1[56-62]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-7]" />
+            <item id="m2.1" segmentation="w2[0-6]" />
+            <item id="m3.1" segmentation="w3[0-9]" />
+            <item id="m3.2" segmentation="w3[9-11]" type="affix" />
+            <item id="m4.1" segmentation="w4[0-3]" type="clitic" />
+            <item id="m4.2" segmentation="w4[3-11]" />
+            <item id="m5.1" segmentation="w5[0-8]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-6]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">lo</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">small</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">sg</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">give</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">pfv</item>
+            <item id="g3.2.1" alignment="m3.2" type="leipzig">2sg</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">in</item>
+            <item id="g4.2.1" alignment="m4.2" type="lexeme">nation</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g4.2.3" alignment="m4.2" type="leipzig">pl</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">despise</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">pprt</item>
+            <item id="g6.1.1" alignment="m6.1" type="leipzig">2sg</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">muchness</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.3">
+        <tier type="phrases" id="p">
+            <item id="p1">זְד֤וֹן לִבְּךָ֙ הִשִּׁיאֶ֔ךָ שֹׁכְנִ֥י בְחַגְוֵי־סֶּ֖לַע מְר֣וֹם שִׁבְתּ֑וֹ אֹמֵ֣ר בְּלִבּ֔וֹ מִ֥י יוֹרִדֵ֖נִי אָֽרֶץ׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-7]" />
+            <item id="w2" segmentation="p1[8-16]" />
+            <item id="w3" segmentation="p1[17-29]" />
+            <item id="w4" segmentation="p1[30-39]" />
+            <item id="w5" segmentation="p1[40-49]" />
+            <item id="w6" segmentation="p1[50-57]" />
+            <item id="w7" segmentation="p1[58-65]" />
+            <item id="w8" segmentation="p1[66-76]" />
+            <item id="w9" segmentation="p1[77-83]" />
+            <item id="w10" segmentation="p1[84-94]" />
+            <item id="w11" segmentation="p1[95-99]" />
+            <item id="w12" segmentation="p1[100-111]" />
+            <item id="w13" segmentation="p1[112-118]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-7]" />
+            <item id="m2.1" segmentation="w2[0-5]" />
+            <item id="m2.2" segmentation="w2[5-8]" type="affix" />
+            <item id="m3.1" segmentation="w3[0-10]" />
+            <item id="m3.2" segmentation="w3[10-12]" type="affix" />
+            <item id="m4.1" segmentation="w4[0-9]" />
+            <item id="m5.1" segmentation="w5[0-2]" type="clitic" />
+            <item id="m5.2" segmentation="w5[2-9]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-7]" />
+            <item id="m8.1" segmentation="w8[0-8]" />
+            <item id="m8.2" segmentation="w8[8-10]" type="affix" />
+            <item id="m9.1" segmentation="w9[0-6]" />
+            <item id="m10.1" segmentation="w10[0-3]" type="clitic" />
+            <item id="m10.2" segmentation="w10[3-8]" />
+            <item id="m10.3" segmentation="w10[8-10]" type="affix" />
+            <item id="m11.1" segmentation="w11[0-4]" />
+            <item id="m12.1" segmentation="w12[0-8]" />
+            <item id="m12.2" segmentation="w12[8-11]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-6]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1.1" alignment="m1.1" type="lexeme">insolence</item>
+            <item id="g1.1.2" alignment="m1.1" type="leipzig">m</item>
+            <item id="g1.1.3" alignment="m1.1" type="leipzig">sg</item>
+            <item id="g1.1.4" alignment="m1.1" type="leipzig">constr</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">inner_man</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">constr</item>
+            <item id="g2.2.1" alignment="m2.2" type="leipzig">2sg</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">beguile</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">pfv</item>
+            <item id="g3.1.3" alignment="m3.1" type="leipzig">3sg</item>
+            <item id="g3.1.4" alignment="m3.1" type="leipzig">m</item>
+            <item id="g3.2.1" alignment="m3.2" type="leipzig">2sg</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">settle_down</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">aprt</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">in</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">places_of_concealment</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">m</item>
+            <item id="g5.2.3" alignment="m5.2" type="leipzig">pl</item>
+            <item id="g5.2.4" alignment="m5.2" type="leipzig">constr</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">crag</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">height</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">sg</item>
+            <item id="g7.1.4" alignment="m7.1" type="leipzig">constr</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">seat</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">f</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">constr</item>
+            <item id="g8.2.1" alignment="m8.2" type="leipzig">3sg</item>
+            <item id="g8.2.2" alignment="m8.2" type="leipzig">m</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">utter</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">aprt</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">in</item>
+            <item id="g10.2.1" alignment="m10.2" type="lexeme">inner_man</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g10.2.3" alignment="m10.2" type="leipzig">sg</item>
+            <item id="g10.2.4" alignment="m10.2" type="leipzig">constr</item>
+            <item id="g10.3.1" alignment="m10.3" type="leipzig">3sg</item>
+            <item id="g10.3.2" alignment="m10.3" type="leipzig">m</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">who</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">come_down</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">ipfv</item>
+            <item id="g12.1.3" alignment="m12.1" type="leipzig">3sg</item>
+            <item id="g12.1.4" alignment="m12.1" type="leipzig">m</item>
+            <item id="g12.2" alignment="m12.2" type="leipzig">1sg</item>
+            <item id="g13.1.1" alignment="m13.1" type="lexeme">earth</item>
+            <item id="g13.1.2" alignment="m13.1" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.4">
+        <tier type="phrases" id="p">
+            <item id="p1">אִם־תַּגְבִּ֣יהַּ כַּנֶּ֔שֶׁר וְאִם־בֵּ֥ין כּֽוֹכָבִ֖ים שִׂ֣ים קִנֶּ֑ךָ מִשָּׁ֥ם אוֹרִֽידְךָ֖ נְאֻם־יְהוָֽה׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-3]" />
+            <item id="w2" segmentation="p1[4-17]" />
+            <item id="w3" segmentation="p1[18-29]" />
+            <item id="w4" segmentation="p1[30-35]" />
+            <item id="w5" segmentation="p1[36-42]" />
+            <item id="w6" segmentation="p1[43-55]" />
+            <item id="w7" segmentation="p1[56-62]" />
+            <item id="w8" segmentation="p1[63-71]" />
+            <item id="w9" segmentation="p1[72-80]" />
+            <item id="w10" segmentation="p1[81-93]" />
+            <item id="w11" segmentation="p1[94-99]" />
+            <item id="w12" segmentation="p1[100-107]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-3]" />
+            <item id="m2.1" segmentation="w2[0-13]" />
+            <item id="m3.1" segmentation="w3[0-3]" type="clitic" />
+            <item id="m3.2" segmentation="w3[3-11]" />
+            <item id="m4.1" segmentation="w4[0-2]" type="clitic" />
+            <item id="m4.2" segmentation="w4[2-5]" />
+            <item id="m5.1" segmentation="w5[0-6]" />
+            <item id="m6.1" segmentation="w6[0-12]" />
+            <item id="m7.1" segmentation="w7[0-6]" />
+            <item id="m8.1" segmentation="w8[0-6]" />
+            <item id="m8.2" segmentation="w8[6-8]" type="affix" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-8]" />
+            <item id="m10.1" segmentation="w10[0-9]" />
+            <item id="m10.2" segmentation="w10[9-12]" type="affix" />
+            <item id="m11.1" segmentation="w11[0-5]" />
+            <item id="m12.1" segmentation="w12[0-7]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">if</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">be_high</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">ipfv</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">2sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">like</item>
+            <item id="g3.2.1" alignment="m3.2" type="lexeme">griffon_vulture</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g3.2.3" alignment="m3.2" type="leipzig">sg</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">and</item>
+            <item id="g4.2" alignment="m4.2" type="lexeme">if</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">interval</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">star</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">pl</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">put</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">pprt</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">nest</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">m</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">constr</item>
+            <item id="g8.2.1" alignment="m8.2" type="leipzig">2sg</item>
+            <item id="g8.2.2" alignment="m8.2" type="leipzig">m</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">from</item>
+            <item id="g9.2" alignment="m9.2" type="lexeme">there</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">come_down</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">ipfv</item>
+            <item id="g10.2.1" alignment="m10.2" type="leipzig">2sg</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g11.1.1" alignment="m11.1" type="lexeme">utterance</item>
+            <item id="g11.1.2" alignment="m11.1" type="leipzig">m</item>
+            <item id="g11.1.3" alignment="m11.1" type="leipzig">sg</item>
+            <item id="g11.1.4" alignment="m11.1" type="leipzig">constr</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">YHWH</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.5">
+        <tier type="phrases" id="p">
+            <item id="p1">אִם־גַּנָּבִ֤ים בָּאֽוּ־לְךָ֙ אִם־שׁ֣וֹדְדֵי לַ֔יְלָה אֵ֣יךְ נִדְמֵ֔יתָה הֲל֥וֹא יִגְנְב֖וּ דַּיָּ֑ם אִם־בֹּֽצְרִים֙ בָּ֣אוּ לָ֔ךְ הֲל֖וֹא יַשְׁאִ֥ירוּ עֹלֵלֽוֹת׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-3]" />
+            <item id="w2" segmentation="p1[4-15]" />
+            <item id="w3" segmentation="p1[16-23]" />
+            <item id="w4" segmentation="p1[24-29]" />
+            <item id="w5" segmentation="p1[30-33]" />
+            <item id="w6" segmentation="p1[34-44]" />
+            <item id="w7" segmentation="p1[45-53]" />
+            <item id="w8" segmentation="p1[54-60]" />
+            <item id="w9" segmentation="p1[61-72]" />
+            <item id="w10" segmentation="p1[73-80]" />
+            <item id="w11" segmentation="p1[81-91]" />
+            <item id="w12" segmentation="p1[92-100]" />
+            <item id="w13" segmentation="p1[101-104]" />
+            <item id="w14" segmentation="p1[105-116]" />
+            <item id="w15" segmentation="p1[117-124]" />
+            <item id="w16" segmentation="p1[125-130]" />
+            <item id="w17" segmentation="p1[131-138]" />
+            <item id="w18" segmentation="p1[139-151]" />
+            <item id="w19" segmentation="p1[152-161]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-3]" />
+            <item id="m2.1" segmentation="w2[0-11]" />
+            <item id="m3.1" segmentation="w3[0-7]" />
+            <item id="m4.1" segmentation="w4[0-2]" />
+            <item id="m4.2" segmentation="w4[2-5]" type="affix" />
+            <item id="m5.1" segmentation="w5[0-3]" />
+            <item id="m6.1" segmentation="w6[0-10]" />
+            <item id="m7.1" segmentation="w7[0-8]" />
+            <item id="m8.1" segmentation="w8[0-6]" />
+            <item id="m9.1" segmentation="w9[0-11]" />
+            <item id="m10.1" segmentation="w10[0-2]" type="clitic" />
+            <item id="m10.2" segmentation="w10[2-7]" />
+            <item id="m11.1" segmentation="w11[0-10]" />
+            <item id="m12.1" segmentation="w12[0-7]" />
+            <item id="m12.2" segmentation="w12[7-8]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-3]" />
+            <item id="m14.1" segmentation="w14[0-11]" />
+            <item id="m15.1" segmentation="w15[0-7]" />
+            <item id="m16.1" segmentation="w16[0-3]" />
+            <item id="m16.2" segmentation="w16[3-5]" type="affix" />
+            <item id="m17.1" segmentation="w17[0-2]" type="clitic" />
+            <item id="m17.2" segmentation="w17[2-7]" />
+            <item id="m18.1" segmentation="w18[0-12]" />
+            <item id="m19.1" segmentation="w19[0-9]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">if</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">thief</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">pl</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">come_in</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">pfv</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">to</item>
+            <item id="g4.2.1" alignment="m4.2" type="leipzig">2sg</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">if</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">deal_violently_with</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">aprt</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">night</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">sg</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">how</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">cease</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">pfv</item>
+            <item id="g9.1.3" alignment="m9.1" type="leipzig">2sg</item>
+            <item id="g9.1.4" alignment="m9.1" type="leipzig">m</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">interrogative_particle</item>
+            <item id="g10.2" alignment="m10.2" type="lexeme">not</item>
+            <item id="g11.1.1" alignment="m11.1" type="lexeme">steal</item>
+            <item id="g11.1.2" alignment="m11.1" type="leipzig">ipfv</item>
+            <item id="g11.1.3" alignment="m11.1" type="leipzig">3pl</item>
+            <item id="g11.1.4" alignment="m11.1" type="leipzig">m</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">sufficiency</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">m</item>
+            <item id="g12.1.3" alignment="m12.1" type="leipzig">sg</item>
+            <item id="g12.1.4" alignment="m12.1" type="leipzig">constr</item>
+            <item id="g12.2.1" alignment="m12.2" type="leipzig">3pl</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">if</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">cut_off</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">aprt</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">come_in</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">pfv</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">to</item>
+            <item id="g16.2.1" alignment="m16.2" type="leipzig">2sg</item>
+            <item id="g16.2.2" alignment="m16.2" type="leipzig">f</item>
+            <item id="g17.1" alignment="m17.1" type="lexeme">interrogative_particle</item>
+            <item id="g17.2" alignment="m17.2" type="lexeme">not</item>
+            <item id="g18.1.1" alignment="m18.1" type="lexeme">remain</item>
+            <item id="g18.1.2" alignment="m18.1" type="leipzig">ipfv</item>
+            <item id="g18.1.3" alignment="m18.1" type="leipzig">3pl</item>
+            <item id="g18.1.4" alignment="m18.1" type="leipzig">m</item>
+            <item id="g19.1.1" alignment="m19.1" type="lexeme">gleaning</item>
+            <item id="g19.1.2" alignment="m19.1" type="leipzig">f</item>
+            <item id="g19.1.3" alignment="m19.1" type="leipzig">pl</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.6">
+        <tier type="phrases" id="p">
+            <item id="p1">אֵ֚יךְ נֶחְפְּשׂ֣וּ עֵשָׂ֔ו נִבְע֖וּ מַצְפֻּנָֽיו׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-6]" />
+            <item id="w2" segmentation="p1[7-19]" />
+            <item id="w3" segmentation="p1[20-27]" />
+            <item id="w4" segmentation="p1[28-36]" />
+            <item id="w5" segmentation="p1[37-49]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-6]" />
+            <item id="m2.1" segmentation="w2[0-12]" />
+            <item id="m3.1" segmentation="w3[0-7]" />
+            <item id="m4.1" segmentation="w4[0-8]" />
+            <item id="m5.1" segmentation="w5[0-11]" />
+            <item id="m5.2" segmentation="w5[11-12]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">how</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">search</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">pfv</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">Esau</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">inquire</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">pfv</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">hidden_treasure</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">m</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">pl</item>
+            <item id="g5.1.4" alignment="m5.1" type="leipzig">constr</item>
+            <item id="g5.2.1" alignment="m5.2" type="leipzig">3sg</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.7">
+        <tier type="phrases" id="p">
+            <item id="p1">עַֽד־הַגְּב֣וּל שִׁלְּח֗וּךָ כֹּ֚ל אַנְשֵׁ֣י בְרִיתֶ֔ךָ הִשִּׁיא֛וּךָ יָכְל֥וּ לְךָ֖ אַנְשֵׁ֣י שְׁלֹמֶ֑ךָ לַחְמְךָ֗ יָשִׂ֤ימוּ מָזוֹר֙ תַּחְתֶּ֔יךָ אֵ֥ין תְּבוּנָ֖ה בּֽוֹ׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-4]" />
+            <item id="w2" segmentation="p1[5-15]" />
+            <item id="w3" segmentation="p1[16-28]" />
+            <item id="w4" segmentation="p1[29-34]" />
+            <item id="w5" segmentation="p1[35-44]" />
+            <item id="w6" segmentation="p1[45-55]" />
+            <item id="w7" segmentation="p1[56-69]" />
+            <item id="w8" segmentation="p1[70-78]" />
+            <item id="w9" segmentation="p1[79-84]" />
+            <item id="w10" segmentation="p1[85-94]" />
+            <item id="w11" segmentation="p1[95-105]" />
+            <item id="w12" segmentation="p1[106-115]" />
+            <item id="w13" segmentation="p1[116-126]" />
+            <item id="w14" segmentation="p1[127-134]" />
+            <item id="w15" segmentation="p1[135-147]" />
+            <item id="w16" segmentation="p1[148-153]" />
+            <item id="w17" segmentation="p1[154-164]" />
+            <item id="w18" segmentation="p1[165-170]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-4]" />
+            <item id="m2.1" segmentation="w2[0-2]" type="clitic" />
+            <item id="m2.2" segmentation="w2[2-10]" />
+            <item id="m3.1" segmentation="w3[0-10]" />
+            <item id="m3.2" segmentation="w3[10-12]" type="affix" />
+            <item id="m4.1" segmentation="w4[0-5]" />
+            <item id="m5.1" segmentation="w5[0-9]" />
+            <item id="m6.1" segmentation="w6[0-8]" />
+            <item id="m6.2" segmentation="w6[8-10]" type="affix" />
+            <item id="m7.1" segmentation="w7[0-11]" />
+            <item id="m7.2" segmentation="w7[11-13]" type="affix" />
+            <item id="m8.1" segmentation="w8[0-8]" />
+            <item id="m9.1" segmentation="w9[0-2]" />
+            <item id="m9.2" segmentation="w9[2-5]" type="affix" />
+            <item id="m10.1" segmentation="w10[0-9]" />
+            <item id="m11.1" segmentation="w11[0-8]" />
+            <item id="m11.2" segmentation="w11[8-10]" type="affix" />
+            <item id="m12.1" segmentation="w12[0-6]" />
+            <item id="m12.2" segmentation="w12[6-9]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-10]" />
+            <item id="m14.1" segmentation="w14[0-7]" />
+            <item id="m15.1" segmentation="w15[0-10]" />
+            <item id="m15.2" segmentation="w15[10-12]" type="affix" />
+            <item id="m16.1" segmentation="w16[0-5]" />
+            <item id="m17.1" segmentation="w17[0-10]" />
+            <item id="m18.1" segmentation="w18[0-3]" />
+            <item id="m18.2" segmentation="w18[3-5]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">as_far_as</item>
+            <item id="g2.1" alignment="m2.1" type="leipzig">def</item>
+            <item id="g2.2.1" alignment="m2.2" type="lexeme">border</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g2.2.3" alignment="m2.2" type="leipzig">sg</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">send</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">pfv</item>
+            <item id="g3.2.1" alignment="m3.2" type="leipzig">2sg</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">the_whole</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">m</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">constr</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">man</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">m</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">pl</item>
+            <item id="g5.1.4" alignment="m5.1" type="leipzig">constr</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">covenant</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">f</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g6.1.4" alignment="m6.1" type="leipzig">constr</item>
+            <item id="g6.2.1" alignment="m6.2" type="leipzig">2sg</item>
+            <item id="g6.2.2" alignment="m6.2" type="leipzig">m</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">beguile</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">pfv</item>
+            <item id="g7.2.1" alignment="m7.2" type="leipzig">2sg</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">be_able</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">pfv</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">to</item>
+            <item id="g9.2.1" alignment="m9.2" type="leipzig">2sg</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">m</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">man</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">m</item>
+            <item id="g10.1.3" alignment="m10.1" type="leipzig">pl</item>
+            <item id="g10.1.4" alignment="m10.1" type="leipzig">constr</item>
+            <item id="g11.1.1" alignment="m11.1" type="lexeme">completeness</item>
+            <item id="g11.1.2" alignment="m11.1" type="leipzig">m</item>
+            <item id="g11.1.3" alignment="m11.1" type="leipzig">sg</item>
+            <item id="g11.1.4" alignment="m11.1" type="leipzig">constr</item>
+            <item id="g11.2.1" alignment="m11.2" type="leipzig">2sg</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">m</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">bread</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">sg</item>
+            <item id="g12.1.3" alignment="m12.1" type="leipzig">constr</item>
+            <item id="g12.2.1" alignment="m12.2" type="leipzig">2sg</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g13.1.1" alignment="m13.1" type="lexeme">put</item>
+            <item id="g13.1.2" alignment="m13.1" type="leipzig">ipfv</item>
+            <item id="g13.1.3" alignment="m13.1" type="leipzig">3pl</item>
+            <item id="g13.1.4" alignment="m13.1" type="leipzig">m</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">net</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">m</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">sg</item>
+            <item id="g15.1" alignment="m15.1" type="lexeme">the_under_part</item>
+            <item id="g15.2.1" alignment="m15.2" type="leipzig">2sg</item>
+            <item id="g15.2.2" alignment="m15.2" type="leipzig">m</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">nothing</item>
+            <item id="g17.1.1" alignment="m17.1" type="lexeme">understanding</item>
+            <item id="g17.1.2" alignment="m17.1" type="leipzig">f</item>
+            <item id="g17.1.3" alignment="m17.1" type="leipzig">sg</item>
+            <item id="g18.1" alignment="m18.1" type="lexeme">in</item>
+            <item id="g18.2.1" alignment="m18.2" type="leipzig">3sg</item>
+            <item id="g18.2.2" alignment="m18.2" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.8">
+        <tier type="phrases" id="p">
+            <item id="p1">הֲל֛וֹא בַּיּ֥וֹם הַה֖וּא נְאֻם־יְהוָ֑ה וְהַאֲבַדְתִּ֤י חֲכָמִים֙ מֵֽאֱד֔וֹם וּתְבוּנָ֖ה מֵהַ֥ר עֵשָֽׂו׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-7]" />
+            <item id="w2" segmentation="p1[8-17]" />
+            <item id="w3" segmentation="p1[18-25]" />
+            <item id="w4" segmentation="p1[26-31]" />
+            <item id="w5" segmentation="p1[32-39]" />
+            <item id="w6" segmentation="p1[40-55]" />
+            <item id="w7" segmentation="p1[56-65]" />
+            <item id="w8" segmentation="p1[66-76]" />
+            <item id="w9" segmentation="p1[77-88]" />
+            <item id="w10" segmentation="p1[89-95]" />
+            <item id="w11" segmentation="p1[96-103]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-7]" />
+            <item id="m2.1" segmentation="w2[0-3]" type="clitic" />
+            <item id="m2.2" segmentation="w2[3-9]" />
+            <item id="m3.1" segmentation="w3[0-2]" type="clitic" />
+            <item id="m3.2" segmentation="w3[2-7]" />
+            <item id="m4.1" segmentation="w4[0-5]" />
+            <item id="m5.1" segmentation="w5[0-7]" />
+            <item id="m6.1" segmentation="w6[0-2]" type="clitic" />
+            <item id="m6.2" segmentation="w6[2-15]" />
+            <item id="m7.1" segmentation="w7[0-9]" />
+            <item id="m8.1" segmentation="w8[0-3]" type="clitic" />
+            <item id="m8.2" segmentation="w8[3-10]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-11]" />
+            <item id="m10.1" segmentation="w10[0-2]" type="clitic" />
+            <item id="m10.2" segmentation="w10[2-6]" />
+            <item id="m11.1" segmentation="w11[0-7]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">interrogative_particle</item>
+            <item id="g1.2" alignment="m1.2" type="lexeme">not</item>
+            <item id="g2.1" alignment="m2.1" type="lexeme">in</item>
+            <item id="g2.2.1" alignment="m2.2" type="lexeme">day</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g2.2.3" alignment="m2.2" type="leipzig">sg</item>
+            <item id="g3.1" alignment="m3.1" type="leipzig">def</item>
+            <item id="g3.2.1" alignment="m3.2" type="leipzig">3sg</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">utterance</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">m</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">constr</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">YHWH</item>
+            <item id="g6.1" alignment="m6.1" type="lexeme">and</item>
+            <item id="g6.2.1" alignment="m6.2" type="lexeme">perish</item>
+            <item id="g6.2.2" alignment="m6.2" type="leipzig">seq</item>
+            <item id="g6.2.3" alignment="m6.2" type="leipzig">ipfv</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">wise</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">pl</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">from</item>
+            <item id="g8.2" alignment="m8.2" type="lexeme">Edom</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">and</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">understanding</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">f</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">sg</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">from</item>
+            <item id="g10.2.1" alignment="m10.2" type="lexeme">mountain</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g10.2.3" alignment="m10.2" type="leipzig">sg</item>
+            <item id="g10.2.4" alignment="m10.2" type="leipzig">constr</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">Esau</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.9">
+        <tier type="phrases" id="p">
+            <item id="p1">וְחַתּ֥וּ גִבּוֹרֶ֖יךָ תֵּימָ֑ן לְמַ֧עַן יִכָּֽרֶת־אִ֛ישׁ מֵהַ֥ר עֵשָׂ֖ו מִקָּֽטֶל׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-9]" />
+            <item id="w2" segmentation="p1[10-22]" />
+            <item id="w3" segmentation="p1[23-31]" />
+            <item id="w4" segmentation="p1[32-40]" />
+            <item id="w5" segmentation="p1[41-50]" />
+            <item id="w6" segmentation="p1[51-57]" />
+            <item id="w7" segmentation="p1[58-64]" />
+            <item id="w8" segmentation="p1[65-72]" />
+            <item id="w9" segmentation="p1[73-82]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-9]" />
+            <item id="m2.1" segmentation="w2[0-10]" />
+            <item id="m2.2" segmentation="w2[10-12]" type="affix" />
+            <item id="m3.1" segmentation="w3[0-8]" />
+            <item id="m4.1" segmentation="w4[0-8]" />
+            <item id="m5.1" segmentation="w5[0-9]" />
+            <item id="m6.1" segmentation="w6[0-6]" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-6]" />
+            <item id="m8.1" segmentation="w8[0-7]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-9]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">be_shattered</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">seq</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">ipfv</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">strong</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">pl</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">constr</item>
+            <item id="g2.2.1" alignment="m2.2" type="leipzig">2sg</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">south</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">purpose</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">cut_off</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">ipfv</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">3sg</item>
+            <item id="g5.1.4" alignment="m5.1" type="leipzig">m</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">man</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">from</item>
+            <item id="g7.2.1" alignment="m7.2" type="lexeme">mountain</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g7.2.3" alignment="m7.2" type="leipzig">sg</item>
+            <item id="g7.2.4" alignment="m7.2" type="leipzig">constr</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">Esau</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">from</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">slaughter</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">m</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.10">
+        <tier type="phrases" id="p">
+            <item id="p1">מֵחֲמַ֛ס אָחִ֥יךָ יַעֲקֹ֖ב תְּכַסְּךָ֣ בוּשָׁ֑ה וְנִכְרַ֖תָּ לְעוֹלָֽם׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-17]" />
+            <item id="w3" segmentation="p1[18-26]" />
+            <item id="w4" segmentation="p1[27-38]" />
+            <item id="w5" segmentation="p1[39-47]" />
+            <item id="w6" segmentation="p1[48-60]" />
+            <item id="w7" segmentation="p1[61-70]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-8]" />
+            <item id="m2.1" segmentation="w2[0-6]" />
+            <item id="m2.2" segmentation="w2[6-8]" type="affix" />
+            <item id="m3.1" segmentation="w3[0-8]" />
+            <item id="m4.1" segmentation="w4[0-8]" />
+            <item id="m4.2" segmentation="w4[8-11]" type="affix" />
+            <item id="m5.1" segmentation="w5[0-8]" />
+            <item id="m6.1" segmentation="w6[0-2]" type="clitic" />
+            <item id="m6.2" segmentation="w6[2-12]" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-9]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">from</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">violence</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">m</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">sg</item>
+            <item id="g1.2.4" alignment="m1.2" type="leipzig">constr</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">brother</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">constr</item>
+            <item id="g2.2.1" alignment="m2.2" type="leipzig">2sg</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">Jacob</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">cover</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">ipfv</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">3sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">f</item>
+            <item id="g4.2.1" alignment="m4.2" type="leipzig">2sg</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">shame</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">f</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">sg</item>
+            <item id="g6.1" alignment="m6.1" type="lexeme">and</item>
+            <item id="g6.2.1" alignment="m6.2" type="lexeme">cut_off</item>
+            <item id="g6.2.2" alignment="m6.2" type="leipzig">seq</item>
+            <item id="g6.2.3" alignment="m6.2" type="leipzig">ipfv</item>
+            <item id="g6.2.4" alignment="m6.2" type="leipzig">2sg</item>
+            <item id="g6.2.5" alignment="m6.2" type="leipzig">m</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">to</item>
+            <item id="g7.2.1" alignment="m7.2" type="lexeme">long_duration</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g7.2.3" alignment="m7.2" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.11">
+        <tier type="phrases" id="p">
+            <item id="p1">בְּיוֹם֙ עֲמָֽדְךָ֣ מִנֶּ֔גֶד בְּי֛וֹם שְׁב֥וֹת זָרִ֖ים חֵיל֑וֹ וְנָכְרִ֞ים בָּ֣אוּ שערו וְעַל־יְרוּשָׁלִַ֨ם֙ יַדּ֣וּ גוֹרָ֔ל גַּם־אַתָּ֖ה כְּאַחַ֥ד מֵהֶֽם׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-19]" />
+            <item id="w3" segmentation="p1[20-29]" />
+            <item id="w4" segmentation="p1[30-38]" />
+            <item id="w5" segmentation="p1[39-47]" />
+            <item id="w6" segmentation="p1[48-55]" />
+            <item id="w7" segmentation="p1[56-63]" />
+            <item id="w8" segmentation="p1[64-75]" />
+            <item id="w9" segmentation="p1[76-83]" />
+            <item id="w10" segmentation="p1[84-88]" />
+            <item id="w11" segmentation="p1[89-94]" />
+            <item id="w12" segmentation="p1[95-109]" />
+            <item id="w13" segmentation="p1[110-117]" />
+            <item id="w14" segmentation="p1[118-125]" />
+            <item id="w15" segmentation="p1[126-130]" />
+            <item id="w16" segmentation="p1[131-138]" />
+            <item id="w17" segmentation="p1[139-148]" />
+            <item id="w18" segmentation="p1[149-155]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-3]" type="clitic" />
+            <item id="m1.2" segmentation="w1[3-8]" />
+            <item id="m2.1" segmentation="w2[0-7]" />
+            <item id="m2.2" segmentation="w2[7-10]" type="affix" />
+            <item id="m3.1" segmentation="w3[0-2]" type="clitic" />
+            <item id="m3.2" segmentation="w3[2-9]" />
+            <item id="m4.1" segmentation="w4[0-3]" type="clitic" />
+            <item id="m4.2" segmentation="w4[3-8]" />
+            <item id="m5.1" segmentation="w5[0-8]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-5]" />
+            <item id="m7.2" segmentation="w7[5-7]" type="affix" />
+            <item id="m8.1" segmentation="w8[0-2]" type="clitic" />
+            <item id="m8.2" segmentation="w8[2-11]" />
+            <item id="m9.1" segmentation="w9[0-7]" />
+            <item id="m10.1" segmentation="w10[0-3]" />
+            <item id="m10.2" segmentation="w10[3-4]" type="affix" />
+            <item id="m11.1" segmentation="w11[0-2]" type="clitic" />
+            <item id="m11.2" segmentation="w11[2-5]" />
+            <item id="m12.1" segmentation="w12[0-14]" />
+            <item id="m13.1" segmentation="w13[0-7]" />
+            <item id="m14.1" segmentation="w14[0-7]" />
+            <item id="m15.1" segmentation="w15[0-4]" />
+            <item id="m16.1" segmentation="w16[0-7]" />
+            <item id="m17.1" segmentation="w17[0-3]" type="clitic" />
+            <item id="m17.2" segmentation="w17[3-9]" />
+            <item id="m18.1" segmentation="w18[0-2]" />
+            <item id="m18.2" segmentation="w18[2-6]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">in</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">day</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">m</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">sg</item>
+            <item id="g1.2.4" alignment="m1.2" type="leipzig">constr</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">take_one’s_stand</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">inf</item>
+            <item id="g2.2.1" alignment="m2.2" type="leipzig">2sg</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">from</item>
+            <item id="g3.2" alignment="m3.2" type="lexeme">what_is_conspicuous</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">in</item>
+            <item id="g4.2.1" alignment="m4.2" type="lexeme">day</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g4.2.3" alignment="m4.2" type="leipzig">sg</item>
+            <item id="g4.2.4" alignment="m4.2" type="leipzig">constr</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">take_captive</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">inf</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">be_a_stranger</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">pl</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">strength</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">sg</item>
+            <item id="g7.1.4" alignment="m7.1" type="leipzig">constr</item>
+            <item id="g7.2.1" alignment="m7.2" type="leipzig">3sg</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">and</item>
+            <item id="g8.2.1" alignment="m8.2" type="lexeme">foreign</item>
+            <item id="g8.2.2" alignment="m8.2" type="leipzig">m</item>
+            <item id="g8.2.3" alignment="m8.2" type="leipzig">pl</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">come_in</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">pfv</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">gate</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">m</item>
+            <item id="g10.1.3" alignment="m10.1" type="leipzig">sg</item>
+            <item id="g10.1.4" alignment="m10.1" type="leipzig">constr</item>
+            <item id="g10.2.1" alignment="m10.2" type="leipzig">3sg</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">and</item>
+            <item id="g11.2" alignment="m11.2" type="lexeme">above</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">Jerusalem</item>
+            <item id="g13.1.1" alignment="m13.1" type="lexeme">cast</item>
+            <item id="g13.1.2" alignment="m13.1" type="leipzig">pfv</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">lot</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">m</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">sg</item>
+            <item id="g15.1" alignment="m15.1" type="lexeme">also</item>
+            <item id="g16.1.1" alignment="m16.1" type="leipzig">2sg</item>
+            <item id="g16.1.2" alignment="m16.1" type="leipzig">m</item>
+            <item id="g17.1" alignment="m17.1" type="lexeme">like</item>
+            <item id="g17.2.1" alignment="m17.2" type="lexeme">one</item>
+            <item id="g17.2.2" alignment="m17.2" type="leipzig">m</item>
+            <item id="g17.2.3" alignment="m17.2" type="leipzig">sg</item>
+            <item id="g17.2.4" alignment="m17.2" type="leipzig">constr</item>
+            <item id="g18.1" alignment="m18.1" type="lexeme">from</item>
+            <item id="g18.2.1" alignment="m18.2" type="leipzig">3pl</item>
+            <item id="g18.2.2" alignment="m18.2" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.12">
+        <tier type="phrases" id="p">
+            <item id="p1">וְאַל־תֵּ֤רֶא בְיוֹם־אָחִ֨יךָ֙ בְּי֣וֹם נָכְר֔וֹ וְאַל־תִּשְׂמַ֥ח לִבְנֵֽי־יְהוּדָ֖ה בְּי֣וֹם אָבְדָ֑ם וְאַל־תַּגְדֵּ֥ל פִּ֖יךָ בְּי֥וֹם צָרָֽה׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-5]" />
+            <item id="w2" segmentation="p1[6-13]" />
+            <item id="w3" segmentation="p1[14-20]" />
+            <item id="w4" segmentation="p1[21-30]" />
+            <item id="w5" segmentation="p1[31-39]" />
+            <item id="w6" segmentation="p1[40-48]" />
+            <item id="w7" segmentation="p1[49-54]" />
+            <item id="w8" segmentation="p1[55-65]" />
+            <item id="w9" segmentation="p1[66-74]" />
+            <item id="w10" segmentation="p1[75-84]" />
+            <item id="w11" segmentation="p1[85-93]" />
+            <item id="w12" segmentation="p1[94-102]" />
+            <item id="w13" segmentation="p1[103-108]" />
+            <item id="w14" segmentation="p1[109-119]" />
+            <item id="w15" segmentation="p1[120-127]" />
+            <item id="w16" segmentation="p1[128-136]" />
+            <item id="w17" segmentation="p1[137-143]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-5]" />
+            <item id="m2.1" segmentation="w2[0-7]" />
+            <item id="m3.1" segmentation="w3[0-2]" type="clitic" />
+            <item id="m3.2" segmentation="w3[2-6]" />
+            <item id="m4.1" segmentation="w4[0-6]" />
+            <item id="m4.2" segmentation="w4[6-9]" type="affix" />
+            <item id="m5.1" segmentation="w5[0-3]" type="clitic" />
+            <item id="m5.2" segmentation="w5[3-8]" />
+            <item id="m6.1" segmentation="w6[0-6]" />
+            <item id="m6.2" segmentation="w6[6-8]" type="affix" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-5]" />
+            <item id="m8.1" segmentation="w8[0-10]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-8]" />
+            <item id="m10.1" segmentation="w10[0-9]" />
+            <item id="m11.1" segmentation="w11[0-3]" type="clitic" />
+            <item id="m11.2" segmentation="w11[3-8]" />
+            <item id="m12.1" segmentation="w12[0-7]" />
+            <item id="m12.2" segmentation="w12[7-8]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-2]" type="clitic" />
+            <item id="m13.2" segmentation="w13[2-5]" />
+            <item id="m14.1" segmentation="w14[0-10]" />
+            <item id="m15.1" segmentation="w15[0-5]" />
+            <item id="m15.2" segmentation="w15[5-7]" type="affix" />
+            <item id="m16.1" segmentation="w16[0-3]" type="clitic" />
+            <item id="m16.2" segmentation="w16[3-8]" />
+            <item id="m17.1" segmentation="w17[0-6]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2" alignment="m1.2" type="lexeme">not</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">see</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">jus</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">2sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">in</item>
+            <item id="g3.2.1" alignment="m3.2" type="lexeme">day</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g3.2.3" alignment="m3.2" type="leipzig">sg</item>
+            <item id="g3.2.4" alignment="m3.2" type="leipzig">constr</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">brother</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">m</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">constr</item>
+            <item id="g4.2.1" alignment="m4.2" type="leipzig">2sg</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">in</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">day</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">m</item>
+            <item id="g5.2.3" alignment="m5.2" type="leipzig">sg</item>
+            <item id="g5.2.4" alignment="m5.2" type="leipzig">constr</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">misfortune</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g6.1.4" alignment="m6.1" type="leipzig">constr</item>
+            <item id="g6.2.1" alignment="m6.2" type="leipzig">3sg</item>
+            <item id="g6.2.2" alignment="m6.2" type="leipzig">m</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">and</item>
+            <item id="g7.2" alignment="m7.2" type="lexeme">not</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">rejoice</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">jus</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">2sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">m</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">to</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">son</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">m</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">pl</item>
+            <item id="g9.2.4" alignment="m9.2" type="leipzig">constr</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">Judah</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">in</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">day</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">m</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">sg</item>
+            <item id="g11.2.4" alignment="m11.2" type="leipzig">constr</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">perish</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">inf</item>
+            <item id="g12.2.1" alignment="m12.2" type="leipzig">3pl</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">and</item>
+            <item id="g13.2" alignment="m13.2" type="lexeme">not</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">grow_up</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">jus</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">2sg</item>
+            <item id="g14.1.4" alignment="m14.1" type="leipzig">m</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">mouth</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">m</item>
+            <item id="g15.1.3" alignment="m15.1" type="leipzig">sg</item>
+            <item id="g15.1.4" alignment="m15.1" type="leipzig">constr</item>
+            <item id="g15.2.1" alignment="m15.2" type="leipzig">2sg</item>
+            <item id="g15.2.2" alignment="m15.2" type="leipzig">m</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">in</item>
+            <item id="g16.2.1" alignment="m16.2" type="lexeme">day</item>
+            <item id="g16.2.2" alignment="m16.2" type="leipzig">m</item>
+            <item id="g16.2.3" alignment="m16.2" type="leipzig">sg</item>
+            <item id="g16.2.4" alignment="m16.2" type="leipzig">constr</item>
+            <item id="g17.1.1" alignment="m17.1" type="lexeme">straits</item>
+            <item id="g17.1.2" alignment="m17.1" type="leipzig">f</item>
+            <item id="g17.1.3" alignment="m17.1" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.13">
+        <tier type="phrases" id="p">
+            <item id="p1">אַל־תָּב֤וֹא בְשַֽׁעַר־עַמִּי֙ בְּי֣וֹם אֵידָ֔ם אַל־תֵּ֧רֶא גַם־אַתָּ֛ה בְּרָעָת֖וֹ בְּי֣וֹם אֵיד֑וֹ וְאַל־תִּשְׁלַ֥חְנָה בְחֵיל֖וֹ בְּי֥וֹם אֵידֽוֹ׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-3]" />
+            <item id="w2" segmentation="p1[4-12]" />
+            <item id="w3" segmentation="p1[13-22]" />
+            <item id="w4" segmentation="p1[23-30]" />
+            <item id="w5" segmentation="p1[31-39]" />
+            <item id="w6" segmentation="p1[40-47]" />
+            <item id="w7" segmentation="p1[48-51]" />
+            <item id="w8" segmentation="p1[52-59]" />
+            <item id="w9" segmentation="p1[60-63]" />
+            <item id="w10" segmentation="p1[64-71]" />
+            <item id="w11" segmentation="p1[72-83]" />
+            <item id="w12" segmentation="p1[84-92]" />
+            <item id="w13" segmentation="p1[93-100]" />
+            <item id="w14" segmentation="p1[101-106]" />
+            <item id="w15" segmentation="p1[107-121]" />
+            <item id="w16" segmentation="p1[122-131]" />
+            <item id="w17" segmentation="p1[132-140]" />
+            <item id="w18" segmentation="p1[141-148]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-3]" />
+            <item id="m2.1" segmentation="w2[0-8]" />
+            <item id="m3.1" segmentation="w3[0-2]" type="clitic" />
+            <item id="m3.2" segmentation="w3[2-9]" />
+            <item id="m4.1" segmentation="w4[0-5]" />
+            <item id="m4.2" segmentation="w4[5-7]" type="affix" />
+            <item id="m5.1" segmentation="w5[0-3]" type="clitic" />
+            <item id="m5.2" segmentation="w5[3-8]" />
+            <item id="m6.1" segmentation="w6[0-6]" />
+            <item id="m6.2" segmentation="w6[6-7]" type="affix" />
+            <item id="m7.1" segmentation="w7[0-3]" />
+            <item id="m8.1" segmentation="w8[0-7]" />
+            <item id="m9.1" segmentation="w9[0-3]" />
+            <item id="m10.1" segmentation="w10[0-7]" />
+            <item id="m11.1" segmentation="w11[0-3]" type="clitic" />
+            <item id="m11.2" segmentation="w11[3-9]" />
+            <item id="m11.3" segmentation="w11[9-11]" type="affix" />
+            <item id="m12.1" segmentation="w12[0-3]" type="clitic" />
+            <item id="m12.2" segmentation="w12[3-8]" />
+            <item id="m13.1" segmentation="w13[0-5]" />
+            <item id="m13.2" segmentation="w13[5-7]" type="affix" />
+            <item id="m14.1" segmentation="w14[0-2]" type="clitic" />
+            <item id="m14.2" segmentation="w14[2-5]" />
+            <item id="m15.1" segmentation="w15[0-14]" />
+            <item id="m16.1" segmentation="w16[0-2]" type="clitic" />
+            <item id="m16.2" segmentation="w16[2-7]" />
+            <item id="m16.3" segmentation="w16[7-9]" type="affix" />
+            <item id="m17.1" segmentation="w17[0-3]" type="clitic" />
+            <item id="m17.2" segmentation="w17[3-8]" />
+            <item id="m18.1" segmentation="w18[0-5]" />
+            <item id="m18.2" segmentation="w18[5-7]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">not</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">come_in</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">jus</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">2sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">in</item>
+            <item id="g3.2.1" alignment="m3.2" type="lexeme">gate</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g3.2.3" alignment="m3.2" type="leipzig">sg</item>
+            <item id="g3.2.4" alignment="m3.2" type="leipzig">constr</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">people</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">m</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">constr</item>
+            <item id="g4.2" alignment="m4.2" type="leipzig">1sg</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">in</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">day</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">m</item>
+            <item id="g5.2.3" alignment="m5.2" type="leipzig">sg</item>
+            <item id="g5.2.4" alignment="m5.2" type="leipzig">constr</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">distress</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g6.1.4" alignment="m6.1" type="leipzig">constr</item>
+            <item id="g6.2.1" alignment="m6.2" type="leipzig">3pl</item>
+            <item id="g6.2.2" alignment="m6.2" type="leipzig">m</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">not</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">see</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">jus</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">2sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">m</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">also</item>
+            <item id="g10.1.1" alignment="m10.1" type="leipzig">2sg</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">m</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">in</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">evil</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">f</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">sg</item>
+            <item id="g11.2.4" alignment="m11.2" type="leipzig">constr</item>
+            <item id="g11.3.1" alignment="m11.3" type="leipzig">3sg</item>
+            <item id="g11.3.2" alignment="m11.3" type="leipzig">m</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">in</item>
+            <item id="g12.2.1" alignment="m12.2" type="lexeme">day</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g12.2.3" alignment="m12.2" type="leipzig">sg</item>
+            <item id="g12.2.4" alignment="m12.2" type="leipzig">constr</item>
+            <item id="g13.1.1" alignment="m13.1" type="lexeme">distress</item>
+            <item id="g13.1.2" alignment="m13.1" type="leipzig">m</item>
+            <item id="g13.1.3" alignment="m13.1" type="leipzig">sg</item>
+            <item id="g13.1.4" alignment="m13.1" type="leipzig">constr</item>
+            <item id="g13.2.1" alignment="m13.2" type="leipzig">3sg</item>
+            <item id="g13.2.2" alignment="m13.2" type="leipzig">m</item>
+            <item id="g14.1" alignment="m14.1" type="lexeme">and</item>
+            <item id="g14.2" alignment="m14.2" type="lexeme">not</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">send</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">jus</item>
+            <item id="g15.1.3" alignment="m15.1" type="leipzig">2pl</item>
+            <item id="g15.1.4" alignment="m15.1" type="leipzig">f</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">in</item>
+            <item id="g16.2.1" alignment="m16.2" type="lexeme">strength</item>
+            <item id="g16.2.2" alignment="m16.2" type="leipzig">m</item>
+            <item id="g16.2.3" alignment="m16.2" type="leipzig">sg</item>
+            <item id="g16.2.4" alignment="m16.2" type="leipzig">constr</item>
+            <item id="g16.3.1" alignment="m16.3" type="leipzig">3sg</item>
+            <item id="g16.3.2" alignment="m16.3" type="leipzig">m</item>
+            <item id="g17.1" alignment="m17.1" type="lexeme">in</item>
+            <item id="g17.2.1" alignment="m17.2" type="lexeme">day</item>
+            <item id="g17.2.2" alignment="m17.2" type="leipzig">m</item>
+            <item id="g17.2.3" alignment="m17.2" type="leipzig">sg</item>
+            <item id="g17.2.4" alignment="m17.2" type="leipzig">constr</item>
+            <item id="g18.1.1" alignment="m18.1" type="lexeme">distress</item>
+            <item id="g18.1.2" alignment="m18.1" type="leipzig">m</item>
+            <item id="g18.1.3" alignment="m18.1" type="leipzig">sg</item>
+            <item id="g18.1.4" alignment="m18.1" type="leipzig">constr</item>
+            <item id="g18.2.1" alignment="m18.2" type="leipzig">3sg</item>
+            <item id="g18.2.2" alignment="m18.2" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.14">
+        <tier type="phrases" id="p">
+            <item id="p1">וְאַֽל־תַּעֲמֹד֙ עַל־הַפֶּ֔רֶק לְהַכְרִ֖ית אֶת־פְּלִיטָ֑יו וְאַל־תַּסְגֵּ֥ר שְׂרִידָ֖יו בְּי֥וֹם צָרָֽה׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-6]" />
+            <item id="w2" segmentation="p1[7-16]" />
+            <item id="w3" segmentation="p1[17-20]" />
+            <item id="w4" segmentation="p1[21-30]" />
+            <item id="w5" segmentation="p1[31-42]" />
+            <item id="w6" segmentation="p1[43-46]" />
+            <item id="w7" segmentation="p1[47-58]" />
+            <item id="w8" segmentation="p1[59-64]" />
+            <item id="w9" segmentation="p1[65-75]" />
+            <item id="w10" segmentation="p1[76-87]" />
+            <item id="w11" segmentation="p1[88-96]" />
+            <item id="w12" segmentation="p1[97-103]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-6]" />
+            <item id="m2.1" segmentation="w2[0-9]" />
+            <item id="m3.1" segmentation="w3[0-3]" />
+            <item id="m4.1" segmentation="w4[0-2]" type="clitic" />
+            <item id="m4.2" segmentation="w4[2-9]" />
+            <item id="m5.1" segmentation="w5[0-2]" type="clitic" />
+            <item id="m5.2" segmentation="w5[2-11]" />
+            <item id="m6.1" segmentation="w6[0-3]" />
+            <item id="m7.1" segmentation="w7[0-10]" />
+            <item id="m7.2" segmentation="w7[10-11]" type="affix" />
+            <item id="m8.1" segmentation="w8[0-2]" type="clitic" />
+            <item id="m8.2" segmentation="w8[2-5]" />
+            <item id="m9.1" segmentation="w9[0-10]" />
+            <item id="m10.1" segmentation="w10[0-10]" />
+            <item id="m10.2" segmentation="w10[10-11]" type="affix" />
+            <item id="m11.1" segmentation="w11[0-3]" type="clitic" />
+            <item id="m11.2" segmentation="w11[3-8]" />
+            <item id="m12.1" segmentation="w12[0-6]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2" alignment="m1.2" type="lexeme">not</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">take_one’s_stand</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">jus</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">2sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">m</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">above</item>
+            <item id="g4.1" alignment="m4.1" type="leipzig">def</item>
+            <item id="g4.2.1" alignment="m4.2" type="lexeme">rapine</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g4.2.3" alignment="m4.2" type="leipzig">sg</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">to</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">cut_off</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">inf</item>
+            <item id="g6.1" alignment="m6.1" type="leipzig">dom</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">escaped_one</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">pl</item>
+            <item id="g7.1.4" alignment="m7.1" type="leipzig">constr</item>
+            <item id="g7.2.1" alignment="m7.2" type="leipzig">3sg</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">and</item>
+            <item id="g8.2" alignment="m8.2" type="lexeme">not</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">shut</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">jus</item>
+            <item id="g9.1.3" alignment="m9.1" type="leipzig">2sg</item>
+            <item id="g9.1.4" alignment="m9.1" type="leipzig">m</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">survivor</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">m</item>
+            <item id="g10.1.3" alignment="m10.1" type="leipzig">pl</item>
+            <item id="g10.1.4" alignment="m10.1" type="leipzig">constr</item>
+            <item id="g10.2.1" alignment="m10.2" type="leipzig">3sg</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">in</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">day</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">m</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">sg</item>
+            <item id="g11.2.4" alignment="m11.2" type="leipzig">constr</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">straits</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">f</item>
+            <item id="g12.1.3" alignment="m12.1" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.15">
+        <tier type="phrases" id="p">
+            <item id="p1">כִּֽי־קָר֥וֹב יוֹם־יְהוָ֖ה עַל־כָּל־הַגּוֹיִ֑ם כַּאֲשֶׁ֤ר עָשִׂ֨יתָ֙ יֵעָ֣שֶׂה לָּ֔ךְ גְּמֻלְךָ֖ יָשׁ֥וּב בְּרֹאשֶֽׁךָ׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-5]" />
+            <item id="w2" segmentation="p1[6-13]" />
+            <item id="w3" segmentation="p1[14-18]" />
+            <item id="w4" segmentation="p1[19-26]" />
+            <item id="w5" segmentation="p1[27-30]" />
+            <item id="w6" segmentation="p1[31-35]" />
+            <item id="w7" segmentation="p1[36-46]" />
+            <item id="w8" segmentation="p1[47-57]" />
+            <item id="w9" segmentation="p1[58-68]" />
+            <item id="w10" segmentation="p1[69-78]" />
+            <item id="w11" segmentation="p1[79-85]" />
+            <item id="w12" segmentation="p1[86-96]" />
+            <item id="w13" segmentation="p1[97-105]" />
+            <item id="w14" segmentation="p1[106-118]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-5]" />
+            <item id="m2.1" segmentation="w2[0-7]" />
+            <item id="m3.1" segmentation="w3[0-4]" />
+            <item id="m4.1" segmentation="w4[0-7]" />
+            <item id="m5.1" segmentation="w5[0-3]" />
+            <item id="m6.1" segmentation="w6[0-4]" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-10]" />
+            <item id="m8.1" segmentation="w8[0-3]" type="clitic" />
+            <item id="m8.2" segmentation="w8[3-10]" />
+            <item id="m9.1" segmentation="w9[0-10]" />
+            <item id="m10.1" segmentation="w10[0-9]" />
+            <item id="m11.1" segmentation="w11[0-4]" />
+            <item id="m11.2" segmentation="w11[4-6]" type="affix" />
+            <item id="m12.1" segmentation="w12[0-7]" />
+            <item id="m12.2" segmentation="w12[7-10]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-8]" />
+            <item id="m14.1" segmentation="w14[0-3]" type="clitic" />
+            <item id="m14.2" segmentation="w14[3-10]" />
+            <item id="m14.3" segmentation="w14[10-12]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">that</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">near</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">sg</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">day</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">m</item>
+            <item id="g3.1.3" alignment="m3.1" type="leipzig">sg</item>
+            <item id="g3.1.4" alignment="m3.1" type="leipzig">constr</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">YHWH</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">above</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">the_whole</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g6.1.4" alignment="m6.1" type="leipzig">constr</item>
+            <item id="g7.1" alignment="m7.1" type="leipzig">def</item>
+            <item id="g7.2.1" alignment="m7.2" type="lexeme">nation</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">m</item>
+            <item id="g7.2.3" alignment="m7.2" type="leipzig">pl</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">like</item>
+            <item id="g8.2" alignment="m8.2" type="lexeme">according_as</item>
+            <item id="g9.1.1" alignment="m9.1" type="lexeme">do</item>
+            <item id="g9.1.2" alignment="m9.1" type="leipzig">pfv</item>
+            <item id="g9.1.3" alignment="m9.1" type="leipzig">2sg</item>
+            <item id="g9.1.4" alignment="m9.1" type="leipzig">m</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">do</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">ipfv</item>
+            <item id="g10.1.3" alignment="m10.1" type="leipzig">3sg</item>
+            <item id="g10.1.4" alignment="m10.1" type="leipzig">m</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">to</item>
+            <item id="g11.2.1" alignment="m11.2" type="leipzig">2sg</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">f</item>
+            <item id="g12.1.1" alignment="m12.1" type="lexeme">dealing</item>
+            <item id="g12.1.2" alignment="m12.1" type="leipzig">m</item>
+            <item id="g12.1.3" alignment="m12.1" type="leipzig">sg</item>
+            <item id="g12.1.4" alignment="m12.1" type="leipzig">constr</item>
+            <item id="g12.2.1" alignment="m12.2" type="leipzig">2sg</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g13.1.1" alignment="m13.1" type="lexeme">turn_back</item>
+            <item id="g13.1.2" alignment="m13.1" type="leipzig">ipfv</item>
+            <item id="g13.1.3" alignment="m13.1" type="leipzig">3sg</item>
+            <item id="g13.1.4" alignment="m13.1" type="leipzig">m</item>
+            <item id="g14.1" alignment="m14.1" type="lexeme">in</item>
+            <item id="g14.2.1" alignment="m14.2" type="lexeme">head</item>
+            <item id="g14.2.2" alignment="m14.2" type="leipzig">m</item>
+            <item id="g14.2.3" alignment="m14.2" type="leipzig">sg</item>
+            <item id="g14.2.4" alignment="m14.2" type="leipzig">constr</item>
+            <item id="g14.3.1" alignment="m14.3" type="leipzig">2sg</item>
+            <item id="g14.3.2" alignment="m14.3" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.16">
+        <tier type="phrases" id="p">
+            <item id="p1">כִּ֗י כַּֽאֲשֶׁ֤ר שְׁתִיתֶם֙ עַל־הַ֣ר קָדְשִׁ֔י יִשְׁתּ֥וּ כָֽל־הַגּוֹיִ֖ם תָּמִ֑יד וְשָׁת֣וּ וְלָע֔וּ וְהָי֖וּ כְּל֥וֹא הָיֽוּ׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-5]" />
+            <item id="w2" segmentation="p1[6-17]" />
+            <item id="w3" segmentation="p1[18-28]" />
+            <item id="w4" segmentation="p1[29-32]" />
+            <item id="w5" segmentation="p1[33-37]" />
+            <item id="w6" segmentation="p1[38-47]" />
+            <item id="w7" segmentation="p1[48-58]" />
+            <item id="w8" segmentation="p1[59-63]" />
+            <item id="w9" segmentation="p1[64-74]" />
+            <item id="w10" segmentation="p1[75-83]" />
+            <item id="w11" segmentation="p1[84-93]" />
+            <item id="w12" segmentation="p1[94-102]" />
+            <item id="w13" segmentation="p1[103-111]" />
+            <item id="w14" segmentation="p1[112-120]" />
+            <item id="w15" segmentation="p1[121-127]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-5]" />
+            <item id="m2.1" segmentation="w2[0-4]" type="clitic" />
+            <item id="m2.2" segmentation="w2[4-11]" />
+            <item id="m3.1" segmentation="w3[0-10]" />
+            <item id="m4.1" segmentation="w4[0-3]" />
+            <item id="m5.1" segmentation="w5[0-4]" />
+            <item id="m6.1" segmentation="w6[0-8]" />
+            <item id="m6.2" segmentation="w6[8-9]" type="affix" />
+            <item id="m7.1" segmentation="w7[0-10]" />
+            <item id="m8.1" segmentation="w8[0-4]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-10]" />
+            <item id="m10.1" segmentation="w10[0-8]" />
+            <item id="m11.1" segmentation="w11[0-2]" type="clitic" />
+            <item id="m11.2" segmentation="w11[2-9]" />
+            <item id="m12.1" segmentation="w12[0-2]" type="clitic" />
+            <item id="m12.2" segmentation="w12[2-8]" />
+            <item id="m13.1" segmentation="w13[0-2]" type="clitic" />
+            <item id="m13.2" segmentation="w13[2-8]" />
+            <item id="m14.1" segmentation="w14[0-3]" type="clitic" />
+            <item id="m14.2" segmentation="w14[3-8]" />
+            <item id="m15.1" segmentation="w15[0-6]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">that</item>
+            <item id="g2.1" alignment="m2.1" type="lexeme">like</item>
+            <item id="g2.2" alignment="m2.2" type="lexeme">according_as</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">drink</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">pfv</item>
+            <item id="g3.1.3" alignment="m3.1" type="leipzig">2pl</item>
+            <item id="g3.1.4" alignment="m3.1" type="leipzig">m</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">above</item>
+            <item id="g5.1.1" alignment="m5.1" type="lexeme">mountain</item>
+            <item id="g5.1.2" alignment="m5.1" type="leipzig">m</item>
+            <item id="g5.1.3" alignment="m5.1" type="leipzig">sg</item>
+            <item id="g5.1.4" alignment="m5.1" type="leipzig">constr</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">apartness</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g6.1.4" alignment="m6.1" type="leipzig">constr</item>
+            <item id="g6.2" alignment="m6.2" type="leipzig">1sg</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">drink</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">ipfv</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">3pl</item>
+            <item id="g7.1.4" alignment="m7.1" type="leipzig">m</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">the_whole</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">m</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">constr</item>
+            <item id="g9.1" alignment="m9.1" type="leipzig">def</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">nation</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">m</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">pl</item>
+            <item id="g10.1.1" alignment="m10.1" type="lexeme">continuity</item>
+            <item id="g10.1.2" alignment="m10.1" type="leipzig">m</item>
+            <item id="g10.1.3" alignment="m10.1" type="leipzig">sg</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">and</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">drink</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">seq</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">ipfv</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">and</item>
+            <item id="g12.2.1" alignment="m12.2" type="lexeme">swallow</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">seq</item>
+            <item id="g12.2.3" alignment="m12.2" type="leipzig">ipfv</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">and</item>
+            <item id="g13.2.1" alignment="m13.2" type="lexeme">be</item>
+            <item id="g13.2.2" alignment="m13.2" type="leipzig">seq</item>
+            <item id="g13.2.3" alignment="m13.2" type="leipzig">ipfv</item>
+            <item id="g14.1" alignment="m14.1" type="lexeme">like</item>
+            <item id="g14.2" alignment="m14.2" type="lexeme">not</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">be</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">pfv</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.17">
+        <tier type="phrases" id="p">
+            <item id="p1">וּבְהַ֥ר צִיּ֛וֹן תִּהְיֶ֥ה פְלֵיטָ֖ה וְהָ֣יָה קֹ֑דֶשׁ וְיָֽרְשׁוּ֙ בֵּ֣ית יַֽעֲקֹ֔ב אֵ֖ת מוֹרָֽשֵׁיהֶם׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-17]" />
+            <item id="w3" segmentation="p1[18-27]" />
+            <item id="w4" segmentation="p1[28-37]" />
+            <item id="w5" segmentation="p1[38-46]" />
+            <item id="w6" segmentation="p1[47-54]" />
+            <item id="w7" segmentation="p1[55-67]" />
+            <item id="w8" segmentation="p1[68-74]" />
+            <item id="w9" segmentation="p1[75-84]" />
+            <item id="w10" segmentation="p1[85-89]" />
+            <item id="w11" segmentation="p1[90-103]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-4]" type="clitic" />
+            <item id="m1.3" segmentation="w1[4-8]" />
+            <item id="m2.1" segmentation="w2[0-8]" />
+            <item id="m3.1" segmentation="w3[0-9]" />
+            <item id="m4.1" segmentation="w4[0-9]" />
+            <item id="m5.1" segmentation="w5[0-2]" type="clitic" />
+            <item id="m5.2" segmentation="w5[2-8]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-2]" type="clitic" />
+            <item id="m7.2" segmentation="w7[2-12]" />
+            <item id="m8.1" segmentation="w8[0-6]" />
+            <item id="m9.1" segmentation="w9[0-9]" />
+            <item id="m10.1" segmentation="w10[0-4]" />
+            <item id="m11.1" segmentation="w11[0-10]" />
+            <item id="m11.2" segmentation="w11[10-13]" type="affix" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2" alignment="m1.2" type="lexeme">in</item>
+            <item id="g1.3.1" alignment="m1.3" type="lexeme">mountain</item>
+            <item id="g1.3.2" alignment="m1.3" type="leipzig">m</item>
+            <item id="g1.3.3" alignment="m1.3" type="leipzig">sg</item>
+            <item id="g1.3.4" alignment="m1.3" type="leipzig">constr</item>
+            <item id="g2.1" alignment="m2.1" type="lexeme">Zion</item>
+            <item id="g3.1.1" alignment="m3.1" type="lexeme">be</item>
+            <item id="g3.1.2" alignment="m3.1" type="leipzig">ipfv</item>
+            <item id="g3.1.3" alignment="m3.1" type="leipzig">3sg</item>
+            <item id="g3.1.4" alignment="m3.1" type="leipzig">f</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">escape</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">f</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">and</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">be</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">seq</item>
+            <item id="g5.2.3" alignment="m5.2" type="leipzig">ipfv</item>
+            <item id="g5.2.4" alignment="m5.2" type="leipzig">3sg</item>
+            <item id="g5.2.5" alignment="m5.2" type="leipzig">m</item>
+            <item id="g6.1.1" alignment="m6.1" type="lexeme">apartness</item>
+            <item id="g6.1.2" alignment="m6.1" type="leipzig">m</item>
+            <item id="g6.1.3" alignment="m6.1" type="leipzig">sg</item>
+            <item id="g7.1" alignment="m7.1" type="lexeme">and</item>
+            <item id="g7.2.1" alignment="m7.2" type="lexeme">take_possession_of</item>
+            <item id="g7.2.2" alignment="m7.2" type="leipzig">seq</item>
+            <item id="g7.2.3" alignment="m7.2" type="leipzig">ipfv</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">house</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">m</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">sg</item>
+            <item id="g8.1.4" alignment="m8.1" type="leipzig">constr</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">Jacob</item>
+            <item id="g10.1" alignment="m10.1" type="leipzig">dom</item>
+            <item id="g11.1.1" alignment="m11.1" type="lexeme">a_possession</item>
+            <item id="g11.1.2" alignment="m11.1" type="leipzig">m</item>
+            <item id="g11.1.3" alignment="m11.1" type="leipzig">pl</item>
+            <item id="g11.1.4" alignment="m11.1" type="leipzig">constr</item>
+            <item id="g11.2.1" alignment="m11.2" type="leipzig">3pl</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.18">
+        <tier type="phrases" id="p">
+            <item id="p1">וְהָיָה֩ בֵית־יַעֲקֹ֨ב אֵ֜שׁ וּבֵ֧ית יוֹסֵ֣ף לֶהָבָ֗ה וּבֵ֤ית עֵשָׂו֙ לְקַ֔שׁ וְדָלְק֥וּ בָהֶ֖ם וַאֲכָל֑וּם וְלֹֽא־יִֽהְיֶ֤ה שָׂרִיד֙ לְבֵ֣ית עֵשָׂ֔ו כִּ֥י יְהוָ֖ה דִּבֵּֽר׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-13]" />
+            <item id="w3" segmentation="p1[14-22]" />
+            <item id="w4" segmentation="p1[23-28]" />
+            <item id="w5" segmentation="p1[29-36]" />
+            <item id="w6" segmentation="p1[37-44]" />
+            <item id="w7" segmentation="p1[45-53]" />
+            <item id="w8" segmentation="p1[54-61]" />
+            <item id="w9" segmentation="p1[62-69]" />
+            <item id="w10" segmentation="p1[70-77]" />
+            <item id="w11" segmentation="p1[78-88]" />
+            <item id="w12" segmentation="p1[89-95]" />
+            <item id="w13" segmentation="p1[96-107]" />
+            <item id="w14" segmentation="p1[108-114]" />
+            <item id="w15" segmentation="p1[115-124]" />
+            <item id="w16" segmentation="p1[125-133]" />
+            <item id="w17" segmentation="p1[134-141]" />
+            <item id="w18" segmentation="p1[142-149]" />
+            <item id="w19" segmentation="p1[150-155]" />
+            <item id="w20" segmentation="p1[156-163]" />
+            <item id="w21" segmentation="p1[164-172]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-8]" />
+            <item id="m2.1" segmentation="w2[0-4]" />
+            <item id="m3.1" segmentation="w3[0-8]" />
+            <item id="m4.1" segmentation="w4[0-5]" />
+            <item id="m5.1" segmentation="w5[0-2]" type="clitic" />
+            <item id="m5.2" segmentation="w5[2-7]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-8]" />
+            <item id="m8.1" segmentation="w8[0-2]" type="clitic" />
+            <item id="m8.2" segmentation="w8[2-7]" />
+            <item id="m9.1" segmentation="w9[0-7]" />
+            <item id="m10.1" segmentation="w10[0-2]" type="clitic" />
+            <item id="m10.2" segmentation="w10[2-7]" />
+            <item id="m11.1" segmentation="w11[0-2]" type="clitic" />
+            <item id="m11.2" segmentation="w11[2-10]" />
+            <item id="m12.1" segmentation="w12[0-2]" />
+            <item id="m12.2" segmentation="w12[2-6]" type="affix" />
+            <item id="m13.1" segmentation="w13[0-2]" type="clitic" />
+            <item id="m13.2" segmentation="w13[2-10]" />
+            <item id="m13.3" segmentation="w13[10-11]" type="affix" />
+            <item id="m14.1" segmentation="w14[0-2]" type="clitic" />
+            <item id="m14.2" segmentation="w14[2-6]" />
+            <item id="m15.1" segmentation="w15[0-9]" />
+            <item id="m16.1" segmentation="w16[0-8]" />
+            <item id="m17.1" segmentation="w17[0-2]" type="clitic" />
+            <item id="m17.2" segmentation="w17[2-7]" />
+            <item id="m18.1" segmentation="w18[0-7]" />
+            <item id="m19.1" segmentation="w19[0-5]" />
+            <item id="m20.1" segmentation="w20[0-7]" />
+            <item id="m21.1" segmentation="w21[0-8]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">be</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">seq</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">ipfv</item>
+            <item id="g1.2.4" alignment="m1.2" type="leipzig">3sg</item>
+            <item id="g1.2.5" alignment="m1.2" type="leipzig">m</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">house</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">m</item>
+            <item id="g2.1.3" alignment="m2.1" type="leipzig">sg</item>
+            <item id="g2.1.4" alignment="m2.1" type="leipzig">constr</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">Jacob</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">fire</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">and</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">house</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">m</item>
+            <item id="g5.2.3" alignment="m5.2" type="leipzig">sg</item>
+            <item id="g5.2.4" alignment="m5.2" type="leipzig">constr</item>
+            <item id="g6.1" alignment="m6.1" type="lexeme">Joseph</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">flame</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">f</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">sg</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">and</item>
+            <item id="g8.2.1" alignment="m8.2" type="lexeme">house</item>
+            <item id="g8.2.2" alignment="m8.2" type="leipzig">m</item>
+            <item id="g8.2.3" alignment="m8.2" type="leipzig">sg</item>
+            <item id="g8.2.4" alignment="m8.2" type="leipzig">constr</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">Esau</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">to</item>
+            <item id="g10.2.1" alignment="m10.2" type="lexeme">stubble</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">m</item>
+            <item id="g10.2.3" alignment="m10.2" type="leipzig">sg</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">and</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">burn</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">seq</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">ipfv</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">in</item>
+            <item id="g12.2.1" alignment="m12.2" type="leipzig">3pl</item>
+            <item id="g12.2.2" alignment="m12.2" type="leipzig">m</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">and</item>
+            <item id="g13.2.1" alignment="m13.2" type="lexeme">eat</item>
+            <item id="g13.2.2" alignment="m13.2" type="leipzig">seq</item>
+            <item id="g13.2.3" alignment="m13.2" type="leipzig">ipfv</item>
+            <item id="g13.3.1" alignment="m13.3" type="leipzig">3pl</item>
+            <item id="g13.3.2" alignment="m13.3" type="leipzig">m</item>
+            <item id="g14.1" alignment="m14.1" type="lexeme">and</item>
+            <item id="g14.2" alignment="m14.2" type="lexeme">not</item>
+            <item id="g15.1.1" alignment="m15.1" type="lexeme">be</item>
+            <item id="g15.1.2" alignment="m15.1" type="leipzig">ipfv</item>
+            <item id="g15.1.3" alignment="m15.1" type="leipzig">3sg</item>
+            <item id="g15.1.4" alignment="m15.1" type="leipzig">m</item>
+            <item id="g16.1.1" alignment="m16.1" type="lexeme">survivor</item>
+            <item id="g16.1.2" alignment="m16.1" type="leipzig">m</item>
+            <item id="g16.1.3" alignment="m16.1" type="leipzig">sg</item>
+            <item id="g17.1" alignment="m17.1" type="lexeme">to</item>
+            <item id="g17.2.1" alignment="m17.2" type="lexeme">house</item>
+            <item id="g17.2.2" alignment="m17.2" type="leipzig">m</item>
+            <item id="g17.2.3" alignment="m17.2" type="leipzig">sg</item>
+            <item id="g17.2.4" alignment="m17.2" type="leipzig">constr</item>
+            <item id="g18.1" alignment="m18.1" type="lexeme">Esau</item>
+            <item id="g19.1" alignment="m19.1" type="lexeme">that</item>
+            <item id="g20.1" alignment="m20.1" type="lexeme">YHWH</item>
+            <item id="g21.1.1" alignment="m21.1" type="lexeme">speak</item>
+            <item id="g21.1.2" alignment="m21.1" type="leipzig">pfv</item>
+            <item id="g21.1.3" alignment="m21.1" type="leipzig">3sg</item>
+            <item id="g21.1.4" alignment="m21.1" type="leipzig">m</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.19">
+        <tier type="phrases" id="p">
+            <item id="p1">וְיָרְשׁ֨וּ הַנֶּ֜גֶב אֶת־הַ֣ר עֵשָׂ֗ו וְהַשְּׁפֵלָה֙ אֶת־פְּלִשְׁתִּ֔ים וְיָרְשׁוּ֙ אֶת־שְׂדֵ֣ה אֶפְרַ֔יִם וְאֵ֖ת שְׂדֵ֣ה שֹׁמְר֑וֹן וּבִנְיָמִ֖ן אֶת־הַגִּלְעָֽד׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-11]" />
+            <item id="w2" segmentation="p1[12-21]" />
+            <item id="w3" segmentation="p1[22-25]" />
+            <item id="w4" segmentation="p1[26-30]" />
+            <item id="w5" segmentation="p1[31-38]" />
+            <item id="w6" segmentation="p1[39-53]" />
+            <item id="w7" segmentation="p1[54-57]" />
+            <item id="w8" segmentation="p1[58-72]" />
+            <item id="w9" segmentation="p1[73-84]" />
+            <item id="w10" segmentation="p1[85-88]" />
+            <item id="w11" segmentation="p1[89-96]" />
+            <item id="w12" segmentation="p1[97-107]" />
+            <item id="w13" segmentation="p1[108-114]" />
+            <item id="w14" segmentation="p1[115-122]" />
+            <item id="w15" segmentation="p1[123-133]" />
+            <item id="w16" segmentation="p1[134-146]" />
+            <item id="w17" segmentation="p1[147-150]" />
+            <item id="w18" segmentation="p1[151-162]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-11]" />
+            <item id="m2.1" segmentation="w2[0-2]" type="clitic" />
+            <item id="m2.2" segmentation="w2[2-9]" />
+            <item id="m3.1" segmentation="w3[0-3]" />
+            <item id="m4.1" segmentation="w4[0-4]" />
+            <item id="m5.1" segmentation="w5[0-7]" />
+            <item id="m6.1" segmentation="w6[0-2]" type="clitic" />
+            <item id="m6.2" segmentation="w6[2-4]" type="clitic" />
+            <item id="m6.3" segmentation="w6[4-14]" />
+            <item id="m7.1" segmentation="w7[0-3]" />
+            <item id="m8.1" segmentation="w8[0-14]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-11]" />
+            <item id="m10.1" segmentation="w10[0-3]" />
+            <item id="m11.1" segmentation="w11[0-7]" />
+            <item id="m12.1" segmentation="w12[0-10]" />
+            <item id="m13.1" segmentation="w13[0-2]" type="clitic" />
+            <item id="m13.2" segmentation="w13[2-6]" />
+            <item id="m14.1" segmentation="w14[0-7]" />
+            <item id="m15.1" segmentation="w15[0-10]" />
+            <item id="m16.1" segmentation="w16[0-2]" type="clitic" />
+            <item id="m16.2" segmentation="w16[2-12]" />
+            <item id="m17.1" segmentation="w17[0-3]" />
+            <item id="m18.1" segmentation="w18[0-2]" type="clitic" />
+            <item id="m18.2" segmentation="w18[2-11]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">take_possession_of</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">seq</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">ipfv</item>
+            <item id="g2.1" alignment="m2.1" type="leipzig">def</item>
+            <item id="g2.2.1" alignment="m2.2" type="lexeme">south_country</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g2.2.3" alignment="m2.2" type="leipzig">sg</item>
+            <item id="g3.1" alignment="m3.1" type="leipzig">dom</item>
+            <item id="g4.1.1" alignment="m4.1" type="lexeme">mountain</item>
+            <item id="g4.1.2" alignment="m4.1" type="leipzig">m</item>
+            <item id="g4.1.3" alignment="m4.1" type="leipzig">sg</item>
+            <item id="g4.1.4" alignment="m4.1" type="leipzig">constr</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">Esau</item>
+            <item id="g6.1" alignment="m6.1" type="lexeme">and</item>
+            <item id="g6.2" alignment="m6.2" type="leipzig">def</item>
+            <item id="g6.3.1" alignment="m6.3" type="lexeme">lowland</item>
+            <item id="g6.3.2" alignment="m6.3" type="leipzig">f</item>
+            <item id="g6.3.3" alignment="m6.3" type="leipzig">sg</item>
+            <item id="g7.1" alignment="m7.1" type="leipzig">dom</item>
+            <item id="g8.1.1" alignment="m8.1" type="lexeme">Philistine</item>
+            <item id="g8.1.2" alignment="m8.1" type="leipzig">m</item>
+            <item id="g8.1.3" alignment="m8.1" type="leipzig">pl</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">and</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">take_possession_of</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">seq</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">ipfv</item>
+            <item id="g10.1" alignment="m10.1" type="leipzig">dom</item>
+            <item id="g11.1.1" alignment="m11.1" type="lexeme">field</item>
+            <item id="g11.1.2" alignment="m11.1" type="leipzig">m</item>
+            <item id="g11.1.3" alignment="m11.1" type="leipzig">sg</item>
+            <item id="g11.1.4" alignment="m11.1" type="leipzig">constr</item>
+            <item id="g12.1" alignment="m12.1" type="lexeme">Ephraim</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">and</item>
+            <item id="g13.2" alignment="m13.2" type="leipzig">dom</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">field</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">m</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">sg</item>
+            <item id="g14.1.4" alignment="m14.1" type="leipzig">constr</item>
+            <item id="g15.1" alignment="m15.1" type="lexeme">Samaria</item>
+            <item id="g16.1" alignment="m16.1" type="lexeme">and</item>
+            <item id="g16.2" alignment="m16.2" type="lexeme">Benjamin</item>
+            <item id="g17.1" alignment="m17.1" type="leipzig">dom</item>
+            <item id="g18.1" alignment="m18.1" type="leipzig">def</item>
+            <item id="g18.2" alignment="m18.2" type="lexeme">Gilead</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.20">
+        <tier type="phrases" id="p">
+            <item id="p1">וְגָלֻ֣ת הַֽחֵל־הַ֠זֶּה לִבְנֵ֨י יִשְׂרָאֵ֤ל אֲשֶֽׁר־כְּנַעֲנִים֙ עַד־צָ֣רְפַ֔ת וְגָלֻ֥ת יְרוּשָׁלִַ֖ם אֲשֶׁ֣ר בִּסְפָרַ֑ד יִֽרְשׁ֕וּ אֵ֖ת עָרֵ֥י הַנֶּֽגֶב׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-15]" />
+            <item id="w3" segmentation="p1[16-23]" />
+            <item id="w4" segmentation="p1[24-32]" />
+            <item id="w5" segmentation="p1[33-44]" />
+            <item id="w6" segmentation="p1[45-52]" />
+            <item id="w7" segmentation="p1[53-65]" />
+            <item id="w8" segmentation="p1[66-69]" />
+            <item id="w9" segmentation="p1[70-79]" />
+            <item id="w10" segmentation="p1[80-88]" />
+            <item id="w11" segmentation="p1[89-102]" />
+            <item id="w12" segmentation="p1[103-110]" />
+            <item id="w13" segmentation="p1[111-122]" />
+            <item id="w14" segmentation="p1[123-133]" />
+            <item id="w15" segmentation="p1[134-138]" />
+            <item id="w16" segmentation="p1[139-145]" />
+            <item id="w17" segmentation="p1[146-155]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-8]" />
+            <item id="m2.1" segmentation="w2[0-3]" type="clitic" />
+            <item id="m2.2" segmentation="w2[3-6]" />
+            <item id="m3.1" segmentation="w3[0-3]" type="clitic" />
+            <item id="m3.2" segmentation="w3[3-7]" />
+            <item id="m4.1" segmentation="w4[0-2]" type="clitic" />
+            <item id="m4.2" segmentation="w4[2-8]" />
+            <item id="m5.1" segmentation="w5[0-11]" />
+            <item id="m6.1" segmentation="w6[0-7]" />
+            <item id="m7.1" segmentation="w7[0-12]" />
+            <item id="m8.1" segmentation="w8[0-3]" />
+            <item id="m9.1" segmentation="w9[0-9]" />
+            <item id="m10.1" segmentation="w10[0-2]" type="clitic" />
+            <item id="m10.2" segmentation="w10[2-8]" />
+            <item id="m11.1" segmentation="w11[0-13]" />
+            <item id="m12.1" segmentation="w12[0-7]" />
+            <item id="m13.1" segmentation="w13[0-3]" type="clitic" />
+            <item id="m13.2" segmentation="w13[3-11]" />
+            <item id="m14.1" segmentation="w14[0-10]" />
+            <item id="m15.1" segmentation="w15[0-4]" />
+            <item id="m16.1" segmentation="w16[0-6]" />
+            <item id="m17.1" segmentation="w17[0-2]" type="clitic" />
+            <item id="m17.2" segmentation="w17[2-9]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">exile</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">f</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">sg</item>
+            <item id="g1.2.4" alignment="m1.2" type="leipzig">constr</item>
+            <item id="g2.1" alignment="m2.1" type="leipzig">def</item>
+            <item id="g2.2.1" alignment="m2.2" type="lexeme">rampart</item>
+            <item id="g2.2.2" alignment="m2.2" type="leipzig">m</item>
+            <item id="g2.2.3" alignment="m2.2" type="leipzig">sg</item>
+            <item id="g3.1" alignment="m3.1" type="leipzig">def</item>
+            <item id="g3.2.1" alignment="m3.2" type="lexeme">this</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">to</item>
+            <item id="g4.2.1" alignment="m4.2" type="lexeme">son</item>
+            <item id="g4.2.2" alignment="m4.2" type="leipzig">m</item>
+            <item id="g4.2.3" alignment="m4.2" type="leipzig">pl</item>
+            <item id="g4.2.4" alignment="m4.2" type="leipzig">constr</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">Israel</item>
+            <item id="g6.1" alignment="m6.1" type="leipzig">rel</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">Kenaanite</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">pl</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">as_far_as</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">Zarephath</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">and</item>
+            <item id="g10.2.1" alignment="m10.2" type="lexeme">exile</item>
+            <item id="g10.2.2" alignment="m10.2" type="leipzig">f</item>
+            <item id="g10.2.3" alignment="m10.2" type="leipzig">sg</item>
+            <item id="g10.2.4" alignment="m10.2" type="leipzig">constr</item>
+            <item id="g11.1" alignment="m11.1" type="lexeme">Jerusalem</item>
+            <item id="g12.1" alignment="m12.1" type="leipzig">rel</item>
+            <item id="g13.1" alignment="m13.1" type="lexeme">in</item>
+            <item id="g13.2" alignment="m13.2" type="lexeme">Sepharad</item>
+            <item id="g14.1.1" alignment="m14.1" type="lexeme">take_possession_of</item>
+            <item id="g14.1.2" alignment="m14.1" type="leipzig">ipfv</item>
+            <item id="g14.1.3" alignment="m14.1" type="leipzig">3pl</item>
+            <item id="g14.1.4" alignment="m14.1" type="leipzig">m</item>
+            <item id="g15.1" alignment="m15.1" type="leipzig">dom</item>
+            <item id="g16.1.1" alignment="m16.1" type="lexeme">city</item>
+            <item id="g16.1.2" alignment="m16.1" type="leipzig">f</item>
+            <item id="g16.1.3" alignment="m16.1" type="leipzig">pl</item>
+            <item id="g16.1.4" alignment="m16.1" type="leipzig">constr</item>
+            <item id="g17.1" alignment="m17.1" type="leipzig">def</item>
+            <item id="g17.2.1" alignment="m17.2" type="lexeme">south_country</item>
+            <item id="g17.2.2" alignment="m17.2" type="leipzig">m</item>
+            <item id="g17.2.3" alignment="m17.2" type="leipzig">sg</item>
+        </tier>
+    </igt>
+    <igt id="Obad.1.21">
+        <tier type="phrases" id="p">
+            <item id="p1">וְעָל֤וּ מֽוֹשִׁעִים֙ בְּהַ֣ר צִיּ֔וֹן לִשְׁפֹּ֖ט אֶת־הַ֣ר עֵשָׂ֑ו וְהָיְתָ֥ה לַֽיהוָ֖ה הַמְּלוּכָֽה׃</item>
+        </tier>
+        <tier type="words" id="w" segmentation="p">
+            <item id="w1" segmentation="p1[0-8]" />
+            <item id="w2" segmentation="p1[9-21]" />
+            <item id="w3" segmentation="p1[22-29]" />
+            <item id="w4" segmentation="p1[30-38]" />
+            <item id="w5" segmentation="p1[39-49]" />
+            <item id="w6" segmentation="p1[50-53]" />
+            <item id="w7" segmentation="p1[54-58]" />
+            <item id="w8" segmentation="p1[59-66]" />
+            <item id="w9" segmentation="p1[67-77]" />
+            <item id="w10" segmentation="p1[78-87]" />
+            <item id="w11" segmentation="p1[88-100]" />
+        </tier>
+        <tier type="morphemes" id="m" segmentation="w">
+            <item id="m1.1" segmentation="w1[0-2]" type="clitic" />
+            <item id="m1.2" segmentation="w1[2-8]" />
+            <item id="m2.1" segmentation="w2[0-12]" />
+            <item id="m3.1" segmentation="w3[0-3]" type="clitic" />
+            <item id="m3.2" segmentation="w3[3-7]" />
+            <item id="m4.1" segmentation="w4[0-8]" />
+            <item id="m5.1" segmentation="w5[0-2]" type="clitic" />
+            <item id="m5.2" segmentation="w5[2-10]" />
+            <item id="m6.1" segmentation="w6[0-3]" />
+            <item id="m7.1" segmentation="w7[0-4]" />
+            <item id="m8.1" segmentation="w8[0-7]" />
+            <item id="m9.1" segmentation="w9[0-2]" type="clitic" />
+            <item id="m9.2" segmentation="w9[2-10]" />
+            <item id="m10.1" segmentation="w10[0-3]" type="clitic" />
+            <item id="m10.2" segmentation="w10[3-9]" />
+            <item id="m11.1" segmentation="w11[0-2]" type="clitic" />
+            <item id="m11.2" segmentation="w11[2-12]" />
+        </tier>
+        <tier type="glosses" id="g" alignment="m">
+            <item id="g1.1" alignment="m1.1" type="lexeme">and</item>
+            <item id="g1.2.1" alignment="m1.2" type="lexeme">go_up</item>
+            <item id="g1.2.2" alignment="m1.2" type="leipzig">seq</item>
+            <item id="g1.2.3" alignment="m1.2" type="leipzig">ipfv</item>
+            <item id="g2.1.1" alignment="m2.1" type="lexeme">deliver</item>
+            <item id="g2.1.2" alignment="m2.1" type="leipzig">aprt</item>
+            <item id="g3.1" alignment="m3.1" type="lexeme">in</item>
+            <item id="g3.2.1" alignment="m3.2" type="lexeme">mountain</item>
+            <item id="g3.2.2" alignment="m3.2" type="leipzig">m</item>
+            <item id="g3.2.3" alignment="m3.2" type="leipzig">sg</item>
+            <item id="g3.2.4" alignment="m3.2" type="leipzig">constr</item>
+            <item id="g4.1" alignment="m4.1" type="lexeme">Zion</item>
+            <item id="g5.1" alignment="m5.1" type="lexeme">to</item>
+            <item id="g5.2.1" alignment="m5.2" type="lexeme">judge</item>
+            <item id="g5.2.2" alignment="m5.2" type="leipzig">inf</item>
+            <item id="g6.1" alignment="m6.1" type="leipzig">dom</item>
+            <item id="g7.1.1" alignment="m7.1" type="lexeme">mountain</item>
+            <item id="g7.1.2" alignment="m7.1" type="leipzig">m</item>
+            <item id="g7.1.3" alignment="m7.1" type="leipzig">sg</item>
+            <item id="g7.1.4" alignment="m7.1" type="leipzig">constr</item>
+            <item id="g8.1" alignment="m8.1" type="lexeme">Esau</item>
+            <item id="g9.1" alignment="m9.1" type="lexeme">and</item>
+            <item id="g9.2.1" alignment="m9.2" type="lexeme">be</item>
+            <item id="g9.2.2" alignment="m9.2" type="leipzig">seq</item>
+            <item id="g9.2.3" alignment="m9.2" type="leipzig">ipfv</item>
+            <item id="g9.2.4" alignment="m9.2" type="leipzig">3sg</item>
+            <item id="g9.2.5" alignment="m9.2" type="leipzig">f</item>
+            <item id="g10.1" alignment="m10.1" type="lexeme">to</item>
+            <item id="g10.2" alignment="m10.2" type="lexeme">YHWH</item>
+            <item id="g11.1" alignment="m11.1" type="leipzig">def</item>
+            <item id="g11.2.1" alignment="m11.2" type="lexeme">kingship</item>
+            <item id="g11.2.2" alignment="m11.2" type="leipzig">f</item>
+            <item id="g11.2.3" alignment="m11.2" type="leipzig">sg</item>
+        </tier>
+    </igt>
+</xigt-corpus>
