@@ -388,3 +388,23 @@ abbr {
         display: flex;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #bookMenu {
+        width: 100vw;
+        height: 65vh;
+        margin-top: 10px;
+    }
+    .bookMenuDiv {
+        flex-direction: column;
+    }
+    .bookMenuDiv span {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .bookMenuDiv:last-child {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}
