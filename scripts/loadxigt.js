@@ -21,6 +21,7 @@ async function loadxigt(xml, section) {
             row.setAttribute("data-osisID", verse.id)
             reader.appendChild(row);
             const num = document.createElement("th");
+            num.id = verse.id.split(".")[2];
             num.textContent = verse.id.split(".")[2];
             row.appendChild(num);
 

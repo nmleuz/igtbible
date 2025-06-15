@@ -108,6 +108,7 @@ a:hover, a:active {
 
 button {
     font-family: "Noto Sans";
+    cursor: pointer;
 }
 
 nav {
@@ -134,7 +135,6 @@ nav {
     background: none;
     border: none;
     color: var(--secondary);
-    cursor: pointer;
 }
 
 .switch {
@@ -210,8 +210,8 @@ input:checked + .slider:before {
     margin-right: 5px;
 }
 
-#bookMenu {
-    z-index: 1;
+#selectMenu {
+    z-index: 3;
     position: absolute;
     left: 0;
     right: 0;
@@ -219,13 +219,30 @@ input:checked + .slider:before {
     background: var(--main-contrast);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
-    padding: 10px 0px 10px 10px;
     width: 500px;
+}
+
+#bookMenu {
+    display: flex;
+    flex-direction: column;
     height: 50vh;
+    padding: 10px;
     overflow-y: auto;
 }
 
-.bookMenuDiv {
+#bookMenu button {
+    background: none;
+    color: var(--text);
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#bookMenu button:hover {
+    background-color: var(--off-main);
+}
+
+#chapterMenu {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -234,22 +251,26 @@ input:checked + .slider:before {
     margin-bottom: 20px;
 }
 
-.bookMenuDiv:last-child {
+#chapterMenu:last-child {
     padding-bottom: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
 }
 
-.bookMenuDiv span {
-    width: 41%;
-    margin: 0px 18px;
+#chapterMenu span {
+    width: 220px;
+    padding-left: 10px;
     font-size: 30px;
     text-align: center;
+    cursor: pointer;
 }
 
 .chapterSelect {
-    width: 59%;
+    width: 250px;
     text-align: left;
+    height: 50vh;
+    padding: 10px 20px 10px 0px;
+    overflow-y: auto;
 }
 
 .chapterSelect button {
@@ -263,7 +284,6 @@ input:checked + .slider:before {
     border: 1px solid var(--off-main);
     border-radius: 5px;
     background: none;
-    cursor: pointer;
 }
 
 .chapterSelect button:hover, .chapterSelect button.selected {
@@ -281,6 +301,7 @@ input:checked + .slider:before {
 
 #reader th {
     float: right;
+    scroll-margin: 7px;
 }
 
 #reader tr td {
@@ -290,6 +311,11 @@ input:checked + .slider:before {
     flex-direction: column;
     text-align: right;
     padding-left: 2ch;
+    min-height: 69.143px;
+}
+
+#reader tr td:last-child {
+    padding-left: 0px;
 }
 
 span {
@@ -315,19 +341,18 @@ abbr {
     background: none;
     color: var(--secondary);
     border: none;
-    cursor: pointer;
     padding: 5px;
 }
 
 #attributionDiv {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     padding: 10px 20px;
     background: var(--main-contrast);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 12px -5px, rgba(0, 0, 0, 0.1) 0px 0px 3px 1px;
     margin: 0px 10px;
-    max-height: calc(100vh - 117px);
+    max-height: calc(100vh - 116px);
     overflow-y: auto;
 }
 
@@ -338,7 +363,6 @@ abbr {
     background: none;
     color: var(--secondary);
     border: none;
-    cursor: pointer;
     padding: 5px;
 }
 
@@ -374,7 +398,7 @@ abbr {
     #rMenu {
         display: none;
         top: 83px;
-        z-index: 1;
+        z-index: 2;
         background-color: var(--main-contrast);
         padding-bottom: 6px;
         border-radius: 5px;
@@ -390,21 +414,21 @@ abbr {
 }
 
 @media only screen and (max-width: 500px) {
-    #bookMenu {
+    #selectMenu {
         width: 100vw;
-        height: 65vh;
         margin-top: 10px;
     }
-    .bookMenuDiv {
+    #bookMenu {
+        height: 65vh;
+    }
+    .chapterSelect {
+        height: calc(65vh - 52px);
+    }
+    #chapterMenu {
         flex-direction: column;
     }
-    .bookMenuDiv span {
+    #chapterMenu span {
         width: 100%;
-        margin-left: 0px;
-        margin-bottom: 5px;
-    }
-    .bookMenuDiv:last-child {
-        padding-bottom: 10px;
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
