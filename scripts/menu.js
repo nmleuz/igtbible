@@ -142,6 +142,7 @@ function setTheme() {
                    window.matchMedia("(prefers-color-scheme: dark)").matches;
     
     document.body.classList.toggle("dark", darkTheme);
+    document.body.classList.toggle("light", !darkTheme);
     sunIcon.classList.toggle("hidden", !darkTheme);
     moonIcon.classList.toggle("hidden", darkTheme);
 }
